@@ -1,0 +1,4547 @@
+[
+  {
+    "job": {
+      "id": "linkedin:4389002489",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 95.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, and TensorFlow, which are common tools in AI and data science.",
+          "Strong knowledge of LLM evaluation frameworks and conversational AI systems.",
+          "Expertise in generative models and computer vision, aligning with AI systems development.",
+          "Experience with Docker and CI/CD pipelines, aligning with modern MLOps practices.",
+          "Proficiency with data manipulation and analysis tools like Pandas and NumPy."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's technical skills perfectly align with common requirements for AI and data science roles."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience in AI and data science roles.",
+          "Led ML initiatives in both startups and enterprise environments.",
+          "Experience with end-to-end ML pipelines and model deployment.",
+          "Strong track record in computer vision and adaptive AI systems.",
+          "Consultant and leadership experience in data science strategy."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's extensive experience aligns well with senior roles in data science and machine learning."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Resides in Berlin, which matches the job location requirement.",
+          "Familiarity with the local tech scene due to previous job roles in Germany."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's location in Berlin perfectly aligns with the job's location requirement."
+      },
+      {
+        "name": "education",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy, providing a strong analytical foundation.",
+          "Completed courses in deep learning at Stanford University.",
+          "Graduate of German language courses up to B2."
+        ],
+        "mismatches": [],
+        "notes": "The candidate has a strong educational background relevant to data science and AI."
+      },
+      {
+        "name": "soft_skills",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Proven leadership and project management in ML initiatives.",
+          "Experienced in cross-functional collaboration and stakeholder communication.",
+          "Capable of innovation leadership and strategy design."
+        ],
+        "mismatches": [],
+        "notes": "The candidate demonstrates strong soft skills essential for leadership roles."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "The work type preference is unspecified in the job posting."
+        ],
+        "notes": "With no specified work type in the job description, the candidate's preference is unclear."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "The job posting does not specify salary expectations."
+        ],
+        "notes": "Salary alignment cannot be assessed due to missing information in the job posting."
+      }
+    ],
+    "top_matches": [
+      "Extensive experience in AI and data science roles.",
+      "Strong alignment with technical skills required for AI and data science.",
+      "Perfect location match as the candidate is based in Berlin."
+    ],
+    "top_gaps": [
+      "No specified work type preference in the job description.",
+      "Lack of salary information to assess expectations alignment.",
+      "Minor details about specific roles and responsibilities are unclear."
+    ],
+    "recommendation": "The candidate is an excellent match for data science roles within AI, especially those in Berlin. Given the strong alignment in technical skills, experience, and location, it is highly recommended to apply. Clarification on work type preferences and salary expectations should be addressed during the interview process.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388602525",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 95.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, TensorFlow, and Scikit-learn",
+          "Expertise in LLM evaluation frameworks and conversational AI systems",
+          "Knowledge of Docker, CI/CD, and model monitoring",
+          "Experience in computer vision and generative AI",
+          "Use of Postgres, Pandas, NumPy for data operations"
+        ],
+        "mismatches": [],
+        "notes": "The candidate's technical expertise perfectly aligns with the requirements for an AI-focused role."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience in data science and machine learning",
+          "Experience in building production AI systems",
+          "Proven track record in ML systems, from startups to enterprise",
+          "Led ML initiatives from development to deployment",
+          "Experience as a consultant and as part of larger organizations like Siemens"
+        ],
+        "mismatches": [],
+        "notes": "The candidate's extensive experience in relevant fields is a strong match."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Located in Berlin, Germany"
+        ],
+        "mismatches": [],
+        "notes": "The candidate is located in the desired location, Berlin."
+      },
+      {
+        "name": "education",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy",
+          "Completed training in Deep Learning for Computer Vision",
+          "Ongoing German language education"
+        ],
+        "mismatches": [],
+        "notes": "The educational background is highly aligned with advanced technical and data science expectations."
+      },
+      {
+        "name": "soft_skills",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Cross-functional collaboration",
+          "Stakeholder communication",
+          "Innovation leadership"
+        ],
+        "mismatches": [],
+        "notes": "Soft skills are well-suited for leadership and collaborative roles."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Work type preference is not explicitly mentioned in the CV."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Salary expectations are not available, hence neutral scoring."
+      }
+    ],
+    "top_matches": [
+      "Experience with Python, PyTorch, TensorFlow, and Scikit-learn",
+      "8+ years of experience in data science and machine learning",
+      "Located in Berlin, Germany"
+    ],
+    "top_gaps": [
+      "Work type preference is not specified",
+      "Salary expectations are not clarified",
+      "No mismatches identified; gaps are primarily due to unknowns"
+    ],
+    "recommendation": "Given the candidate's extensive experience, technical prowess, and alignment with the location, they are highly suitable for AI roles in Berlin. Clarifying work type preferences and salary expectations could further strengthen the application.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4369928377",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 95.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, TensorFlow, and Scikit-learn.",
+          "Proficient in LLM evaluation frameworks and conversational AI systems.",
+          "Skills in Docker, CI/CD, model monitoring, Supabase/Postgres.",
+          "Expertise in computer vision and anomaly detection applications.",
+          "Firm mathematical foundation, including linear algebra and probability."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's tech stack aligns perfectly with a typical Data Scientist/ML Engineer role."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience in AI and Machine Learning.",
+          "Experience in building end-to-end ML pipelines.",
+          "Proven track record of leading ML initiatives in startups and enterprise environments.",
+          "Experience with deploying robust AI infrastructure.",
+          "Consultant roles providing strategic ML architecture advice."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's experience is extensive and highly relevant to typical data science roles."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Based in Berlin, Germany, which matches the job location."
+        ],
+        "mismatches": [],
+        "notes": "Candidate is located in Berlin, matching the job's geographic requirement."
+      },
+      {
+        "name": "education",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy from Tel Aviv University.",
+          "Completed deep learning course from Stanford University.",
+          "German language proficiency, A1-B2 levels."
+        ],
+        "mismatches": [],
+        "notes": "Candidate's educational background aligns well with the technical and domain requirements."
+      },
+      {
+        "name": "soft_skills",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Cross-functional collaboration.",
+          "Stakeholder communication.",
+          "Innovation leadership."
+        ],
+        "mismatches": [],
+        "notes": "Candidate demonstrates strong soft skills in communication and leadership."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Work type preference is not specified in either the CV or the job posting."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Salary details are not provided in either the CV or the job posting."
+      }
+    ],
+    "top_matches": [
+      "8+ years of relevant industry experience.",
+      "Located in Berlin, matching the job location.",
+      "Strong technical skills in Python, TensorFlow, and data science frameworks."
+    ],
+    "top_gaps": [
+      "Work type preference not specified.",
+      "Salary expectations not addressed.",
+      "No mismatches in core skills; all gaps are related to unspecified information."
+    ],
+    "recommendation": "Shachar is a highly suitable candidate given their strong technical expertise, relevant experience, and geographical match for the role. Clarifying preferred work type and salary expectations would further strengthen the application.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4288372686",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 95.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, TensorFlow, and Scikit-learn.",
+          "Proficient in AI Systems and LLM evaluation frameworks.",
+          "Familiarity with Docker, CI/CD, and model monitoring.",
+          "Extensive background in computer vision and generative models.",
+          "Experience with Supabase/Postgres, Pandas, and NumPy."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's technical skills are highly aligned with roles requiring expertise in AI systems, computer vision, and associated tools."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience in data science and machine learning.",
+          "Developed production AI systems for both startups and enterprises.",
+          "Led ML initiatives from development to deployment.",
+          "Experience with ML architecture and adaptive learning systems.",
+          "Past roles have included consulting and engineering positions."
+        ],
+        "mismatches": [],
+        "notes": "Candidate's experience level and type align well with a senior data science and AI role."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Current location in Berlin, Germany.",
+          "Job located in Berlin, Germany."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's location perfectly matches the job's location requirement."
+      },
+      {
+        "name": "education",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "B.Sc. Mathematics & Philosophy from Tel Aviv University.",
+          "Completed deep learning course (CS231n) from Stanford University.",
+          "Teaching Assistant experience in mathematics-related courses."
+        ],
+        "mismatches": [],
+        "notes": "Education complements the technical skills required for AI and data science positions."
+      },
+      {
+        "name": "soft_skills",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Cross-functional collaboration skills.",
+          "Strong stakeholder communication.",
+          "Leadership in innovation.",
+          "Experience in both academia and industry settings.",
+          "Native proficiency in English, with knowledge of German."
+        ],
+        "mismatches": [],
+        "notes": "The candidate exhibits strong soft skills necessary for team collaboration and leadership."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Work type preference is not specified in job posting."
+        ],
+        "notes": "The job does not specify work type, limiting clarity on this alignment."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary information provided, so alignment cannot be assessed."
+      }
+    ],
+    "top_matches": [
+      "Strong alignment in tech stack including Python and AI frameworks.",
+      "8+ years of relevant experience including leadership in ML projects.",
+      "Perfect location match in Berlin, Germany."
+    ],
+    "top_gaps": [
+      "Work type preference not specified.",
+      "Salary expectations cannot be assessed due to lack of data.",
+      "No specific job description to further refine skill alignment."
+    ],
+    "recommendation": "Shachar Heyman is a strong candidate for data science and AI roles, particularly those requiring expertise in machine learning engineering and AI systems. It would be beneficial to clarify work type preferences with the employer and confirm any potential salary expectations. Overall, applying to this role is recommended as it aligns well with Shachar's qualifications and experience.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4340735607",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 95.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with LLM systems and evaluation frameworks",
+          "Proficient in Python, PyTorch, and TensorFlow",
+          "Experience in generative models and anomaly detection",
+          "Knowledge of CI/CD and model monitoring",
+          "Utilizes Docker and Supabase/Postgres"
+        ],
+        "mismatches": [],
+        "notes": "The candidate's tech stack aligns perfectly with AI systems and related technologies."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years in data science and machine learning",
+          "Experience deploying AI models in production",
+          "Led ML initiatives and strategy design",
+          "Experience in both startups and enterprise settings",
+          "Proven record in designing ML architectures and pipelines"
+        ],
+        "mismatches": [],
+        "notes": "The candidate's experience meets the needs of senior-level AI systems deployment."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Currently located in Berlin, Germany"
+        ],
+        "mismatches": [],
+        "notes": "The candidate is perfectly located as per job requirements."
+      },
+      {
+        "name": "education",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy",
+          "Completed coursework in Deep Learning from Stanford",
+          "German language courses in progress"
+        ],
+        "mismatches": [],
+        "notes": "The educational background aligns well with technical requirements."
+      },
+      {
+        "name": "soft_skills",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Cross-functional collaboration",
+          "Stakeholder communication",
+          "Innovation leadership"
+        ],
+        "mismatches": [],
+        "notes": "Soft skills are highly relevant for leadership and collaboration roles."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Work type preference cannot be assessed due to lack of specified data."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Salary alignment cannot be assessed due to lack of data."
+      }
+    ],
+    "top_matches": [
+      "Proficient in relevant AI tech stack including Python, PyTorch, and TensorFlow",
+      "8+ years of relevant machine learning and data science experience",
+      "Located in Berlin, matching job location requirement"
+    ],
+    "top_gaps": [
+      "Lack of information on work type compatibility",
+      "No salary data to match expectations",
+      "Specific job description details are missing, limiting precise alignment evaluation"
+    ],
+    "recommendation": "Shachar Heyman is a strong candidate for AI roles in Berlin, given their extensive experience and relevant skill set. Applying to this position is advisable, though clarifying work type and salary preferences ahead of time could be beneficial.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388617016",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 94.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, TensorFlow, and Scikit-learn.",
+          "Extensive use of Docker and CI/CD for MLOps.",
+          "Expertise in LLM evaluation frameworks and generative models.",
+          "Proficiency in Data Science frameworks like NumPy and Pandas.",
+          "Specialization in computer vision and anomaly detection."
+        ],
+        "mismatches": [],
+        "notes": "The candidate has a perfect alignment with the expected tech stack and skills."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience in machine learning and data science.",
+          "Experience leading ML initiatives in both startups and enterprise environments.",
+          "Proven track record with production AI systems and ML pipelines.",
+          "Experience in designing ML architecture and evaluation frameworks.",
+          "Led generative data augmentation initiatives."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's experience aligns perfectly with the general requirements of an ML and AI-focused role."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Resides in Berlin, Germany as required by the job location."
+        ],
+        "mismatches": [],
+        "notes": "The candidate is located in the same city as the job posting."
+      },
+      {
+        "name": "education",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy, indicating strong analytical skills.",
+          "Completed relevant coursework in deep learning from Stanford University.",
+          "Mathematical foundation relevant to the role."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's education is well-suited for a technical role in data science and machine learning."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Cross-functional collaboration experience.",
+          "Stakeholder communication skills.",
+          "Innovation leadership demonstrated through past projects."
+        ],
+        "mismatches": [
+          "Potential gap in soft skills portfolio since specific communication methods are not detailed."
+        ],
+        "notes": "Strong soft skills alignment, though additional details on specific communication capabilities would be advantageous."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Work type preference (remote, hybrid, on-site) is not specified in the CV."
+        ],
+        "notes": "No specific work type preference indicated, aligning neutrally without further details."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary expectations provided by the candidate or listed in the job posting."
+      }
+    ],
+    "top_matches": [
+      "Perfect match of technical skills in ML frameworks and AI systems.",
+      "Strong experience with ML pipeline development and deployment.",
+      "Located in Berlin, fitting the job's geographic requirement."
+    ],
+    "top_gaps": [
+      "Unclear preference for work type (remote/hybrid/on-site).",
+      "Limited specific details on communication methods in soft skills.",
+      "No salary expectation provided."
+    ],
+    "recommendation": "Shachar is well-qualified for this machine learning and AI role given his strong technical background, industry experience, and Berlin location alignment. Emphasizing specific communication strategies and providing salary expectations could improve application quality.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388798592",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 93.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with LLM systems and conversational AI.",
+          "Proficiency in Python, PyTorch, and TensorFlow.",
+          "Skills in Docker and CI/CD pipelines.",
+          "Generative AI and computer vision domain knowledge.",
+          "Strong mathematical foundation relevant to ML tasks."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's tech stack perfectly matches the demands of a data-centric role, including proficiency in key AI frameworks and tools."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience in data science and machine learning.",
+          "Led AI projects from development to deployment level.",
+          "Experience with industrial visual inspection AI and generative data augmentation.",
+          "Consultant role advising on data science strategy.",
+          "End-to-end ML pipeline development expertise."
+        ],
+        "mismatches": [],
+        "notes": "Candidate has extensive relevant experience across various industries, matching well with unspecified experience requirements."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Located in Berlin, matching job location."
+        ],
+        "mismatches": [],
+        "notes": "Candidate is located in the same city as the job listing."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy from Tel Aviv University.",
+          "Relevant coursework in Deep Learning (CS231n) at Stanford University."
+        ],
+        "mismatches": [
+          "No advanced degree such as M.Sc. or Ph.D. specified."
+        ],
+        "notes": "Educational background is solid with some relevant technical coursework, though lacks advanced degrees."
+      },
+      {
+        "name": "soft_skills",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Cross-functional collaboration.",
+          "Stakeholder communication.",
+          "Leadership in technical directions.",
+          "Innovation in AI deployment."
+        ],
+        "mismatches": [],
+        "notes": "Candidate demonstrates strong soft skills essential for roles requiring collaboration and leadership."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Job posting does not specify work type preference."
+        ],
+        "notes": "There is no information regarding work type preference in the job posting."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Salary data is not available to evaluate."
+      }
+    ],
+    "top_matches": [
+      "Strong tech stack alignment including AI frameworks and domain expertise.",
+      "Extensive relevant experience and leadership in AI project deployment.",
+      "Perfect location match, being based in Berlin."
+    ],
+    "top_gaps": [
+      "Lack of explicit advanced degrees like M.Sc. or Ph.D.",
+      "No work type specification to match or mismatch.",
+      "Salary specifications are not available for a precise evaluation."
+    ],
+    "recommendation": "Shachar is an excellent match for the core requirements of this role, especially given his tech and experience fit. While additional academic credentials could enhance his profile, his practical expertise and leadership experience compensate strongly. Shachar should consider applying to leverage his location advantage and relevant experience.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4386618323",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 93.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Extensive experience with Python, PyTorch, and TensorFlow.",
+          "Proven expertise in LLM systems and evaluation frameworks.",
+          "Familiarity with Docker and CI/CD crucial for scalable AI solutions.",
+          "Background in computer vision, generative models, and anomaly detection.",
+          "Strong MLOps and data management skills with tools like Supabase/Postgres."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's tech stack perfectly aligns with the core requirements for advanced AI and ML system development."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience in AI and machine learning projects.",
+          "Experience leading ML initiatives in both startups and enterprises.",
+          "Designed and deployed AI systems for computer vision and LLM platforms.",
+          "Worked on end-to-end ML pipelines from data ingestion to deployment.",
+          "Experience with production-grade CI/CD pipelines."
+        ],
+        "mismatches": [],
+        "notes": "The candidate has an extensive relevant experience that directly supports the role's requirements."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Resides in Berlin, Germany."
+        ],
+        "mismatches": [],
+        "notes": "The candidate is located in Berlin, fully matching the job's location requirements."
+      },
+      {
+        "name": "education",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy from Tel Aviv University.",
+          "Completed courses in Deep Learning at Stanford University.",
+          "German language proficiency (A1-B2), beneficial for working in Germany."
+        ],
+        "mismatches": [
+          "No specific mention of advanced degree like MSc or PhD."
+        ],
+        "notes": "Educational background is strong and relevant, though lacks an advanced degree."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Effective cross-functional collaboration.",
+          "Proficient stakeholder communication.",
+          "Innovation leadership in AI projects."
+        ],
+        "mismatches": [
+          "No specific mention of teamwork or interpersonal skills beyond professional interactions."
+        ],
+        "notes": "Soft skills are well-aligned, especially in leadership and communication within technical projects."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [
+          "Experience working in startups and large enterprises."
+        ],
+        "mismatches": [
+          "No specific preference for remote, hybrid, or on-site work is stated."
+        ],
+        "notes": "The work type alignment is unclear due to lack of specified preference."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No information provided on expected salary or the job's compensation range."
+      }
+    ],
+    "top_matches": [
+      "Candidate's tech stack closely aligns with job requirements.",
+      "Extensive relevant experience in AI and ML fields.",
+      "Locational fit with job posting in Berlin, Germany."
+    ],
+    "top_gaps": [
+      "No clear advanced degree such as MSc or PhD.",
+      "Lack of specification regarding preferred work type (remote/hybrid/on-site).",
+      "No available salary expectations or job compensation data."
+    ],
+    "recommendation": "The candidate is highly qualified and exhibits strong alignment with the job role's technical and experience requirements. Addressing the minor educational and work type specification gaps could further strengthen this application.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4290619203",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 93.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with LLM systems and evaluation frameworks.",
+          "Proficiency in Python, PyTorch, TensorFlow, and Scikit-learn.",
+          "Experience with Docker and CI/CD for MLOps.",
+          "Strong background in computer vision and generative AI.",
+          "Experience in anomaly detection and conversational AI systems."
+        ],
+        "mismatches": [],
+        "notes": "Candidate has a comprehensive tech stack aligned with diverse AI and ML technologies."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "Over 8 years of experience in AI and ML roles.",
+          "Experience building end-to-end ML pipelines.",
+          "Proven record in both startup and enterprise environments.",
+          "Led ML initiatives and deployment to production.",
+          "Experience working as a consultant and permanent employee."
+        ],
+        "mismatches": [],
+        "notes": "Candidate's experience level is well-suited for roles requiring expertise and leadership in AI projects."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is based in Berlin, Germany."
+        ],
+        "mismatches": [],
+        "notes": "Candidate is located in the required location of Berlin, Germany."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy from Tel Aviv University.",
+          "Completed Stanford University's Deep Learning for Computer Vision course."
+        ],
+        "mismatches": [
+          "No specific degree in computer science or engineering."
+        ],
+        "notes": "Educational background is strong with relevant courses, though lacks a dedicated degree in computer science."
+      },
+      {
+        "name": "soft_skills",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Cross-functional collaboration.",
+          "Stakeholder communication.",
+          "Innovation leadership.",
+          "Multi-language proficiency.",
+          "Leadership in ML initiatives."
+        ],
+        "mismatches": [],
+        "notes": "Candidate possesses excellent soft skills necessary for leadership and collaboration in a tech environment."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "The job's work type preference is unspecified, so a specific match or mismatch cannot be determined."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Salary expectations and offer details are unavailable, making this metric unassessable."
+      }
+    ],
+    "top_matches": [
+      "Candidate's location in Berlin, aligning with job location requirements.",
+      "Over 8 years of experience in AI and ML, with leadership roles.",
+      "Proficiency in a wide range of relevant AI and ML technologies."
+    ],
+    "top_gaps": [
+      "No dedicated degree in Computer Science or Engineering.",
+      "Work type preference not specified by the candidate or job.",
+      "Salary expectations are unprovided."
+    ],
+    "recommendation": "Shachar's extensive experience and technical proficiency make them an excellent fit for AI-focused roles in Berlin. Pursuing roles that leverage their leadership in ML initiatives and technical depth would be beneficial. Consider highlighting continuous professional education in AI and the ability to work in diverse environments.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4357628827",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 93.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Proficient in Python, PyTorch, TensorFlow, and Scikit-learn.",
+          "Experience in building end-to-end ML pipelines.",
+          "Developed LLM evaluation frameworks and conversational AI systems.",
+          "Experience with Docker, CI/CD, and model monitoring.",
+          "Worked on areas like Computer Vision, Generative AI, and Anomaly Detection."
+        ],
+        "mismatches": [],
+        "notes": "The candidate possesses a comprehensive technical skill set that perfectly aligns with requirements for data science and machine learning roles."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience in data science and machine learning.",
+          "Led ML initiatives from early-stage development to production deployment.",
+          "Has consultant and enterprise experience with Convergent-AI and Siemens.",
+          "Experience in startups and enterprise settings.",
+          "Deep domain experience in building AI systems for real-world applications."
+        ],
+        "mismatches": [],
+        "notes": "The candidate has substantial experience, making them highly suitable for senior positions in AI and data science."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Based in Berlin, Germany, which is the job location."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's location in Berlin is a perfect match for the job."
+      },
+      {
+        "name": "education",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "B.Sc. Mathematics & Philosophy from Tel Aviv University.",
+          "Completed 'Deep Learning for Computer Vision' course at Stanford University.",
+          "Knowledge in Linear Algebra, Probability, and other mathematical foundations."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's education aligns well with the technical demands of AI and data science roles."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "Cross-functional collaboration.",
+          "Stakeholder communication.",
+          "Innovation leadership."
+        ],
+        "mismatches": [
+          "No specific mention of teamwork or direct leadership experience."
+        ],
+        "notes": "The candidate demonstrates strong communication and leadership skills, although more evidence of teamwork could enhance this."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [
+          "Has experience in both consulting and enterprise roles, indicating flexibility."
+        ],
+        "mismatches": [
+          "No specific preference for remote, hybrid, or on-site work indicated."
+        ],
+        "notes": "Work type preference is unclear, though experience suggests adaptability."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Salary expectations are not specified, and no data is provided in the job listing."
+      }
+    ],
+    "top_matches": [
+      "Proficient in key ML frameworks and programming languages.",
+      "Extensive experience in ML projects from development to deployment.",
+      "Location in Berlin, aligning perfectly with the job's geographic requirements."
+    ],
+    "top_gaps": [
+      "Unclear work type preference (remote/hybrid/on-site).",
+      "Lack of detailed soft skills related to teamwork.",
+      "No salary expectations or job's listed compensation to compare."
+    ],
+    "recommendation": "The candidate is highly qualified for the role given their extensive experience and relevant technical skills. Clarifying work type preferences and soft skills related to teamwork could strengthen their application. Applying for this role is recommended to leverage strong alignment in technical expertise and geographic location.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388789210",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 92.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, and TensorFlow, which are common in ML environments.",
+          "Proficient in building production AI systems and ML pipelines.",
+          "Expertise in LLM evaluation frameworks and generative models.",
+          "Familiar with CI/CD processes for model deployment.",
+          "Experience in Computer Vision and Anomaly Detection."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's technical skills and expertise perfectly match the requirements commonly associated with AI and ML roles."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "Over 8 years of experience in AI and ML fields.",
+          "Led ML initiatives from research to production in startups and enterprise environments.",
+          "Significant experience as a Data Science & AI Consultant.",
+          "Handled complex ML architectures and adaptive learning systems.",
+          "Worked on both computer vision and LLM-based platforms."
+        ],
+        "mismatches": [],
+        "notes": "The experience level and variety of roles strongly align with typical industry expectations for seasoned ML professionals."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Located in Berlin, Germany, matching the job location."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's location perfectly aligns with the job's geographical location requirement."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy provides a strong foundation in problem-solving and analytical thinking.",
+          "Completed a deep learning specialization from Stanford University.",
+          "Pursuing further language proficiency at Goethe Institut."
+        ],
+        "mismatches": [
+          "No advanced degrees such as a Master's or Ph.D. in a directly related field mentioned."
+        ],
+        "notes": "The educational background is solid but lacks advanced degrees commonly expected in high-level AI roles."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Cross-functional collaboration experience.",
+          "Stakeholder communication and innovation leadership.",
+          "Experience teaching and assisting at a university level."
+        ],
+        "mismatches": [
+          "Specific examples of team leadership in an enterprise are not detailed."
+        ],
+        "notes": "The candidate demonstrates strong soft skills with room for more documented leadership roles."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [
+          "Experience in consulting suggests flexibility in work arrangements."
+        ],
+        "mismatches": [
+          "No specific preference for remote, on-site, or hybrid work mentioned."
+        ],
+        "notes": "While flexible, the work type preference isn't explicitly outlined."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Salary expectations and offering are not listed or discussed."
+      }
+    ],
+    "top_matches": [
+      "Strong technical alignment with Python, PyTorch, and TensorFlow.",
+      "Over 8 years of relevant AI and machine learning experience.",
+      "Located in Berlin, Germany, matching the job location."
+    ],
+    "top_gaps": [
+      "No advanced degrees in a related field like AI or ML.",
+      "Lack of specific information about preferred work type.",
+      "Salary expectations not provided."
+    ],
+    "recommendation": "Shachar Heyman is highly qualified for roles in machine learning and AI, especially in positions located in Berlin. With strong matching in technical skills and relevant experience, he should focus on clarifying his work environment preferences and pursue advanced credentials if avenues for academic advancement are sought.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388746064",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 92.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Proficient in Python, PyTorch, and TensorFlow.",
+          "Experience with CI/CD pipelines.",
+          "Familiar with Docker and model monitoring.",
+          "Strong background in computer vision and generative AI.",
+          "Worked with LLM evaluation frameworks and conversational AI."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's tech stack is an excellent match for the unspecified role requirements, covering a broad array of modern ML tools and frameworks."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years in data science and machine learning.",
+          "Experience in both startups and large enterprises.",
+          "Led ML initiatives and end-to-end pipelines.",
+          "Background in computer vision and LLM-based platforms.",
+          "Consulting experience in designing ML systems."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's extensive experience aligns well with a senior data science or ML engineering role."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Based in Berlin, Germany.",
+          "Able to work in Berlin where the job is located."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's location perfectly matches the job location specification."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy from Tel Aviv University.",
+          "Completed CS231n from Stanford University."
+        ],
+        "mismatches": [
+          "No specific degree related directly to data science or machine learning."
+        ],
+        "notes": "The candidate has a strong educational background, complemented by relevant online coursework."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Cross-functional collaboration skills.",
+          "Stakeholder communication expertise.",
+          "Leadership in technical innovations.",
+          "Fluent in English and Hebrew, conversational in German."
+        ],
+        "mismatches": [
+          "No explicit mention of teamwork or adaptability."
+        ],
+        "notes": "The candidate demonstrates strong communication and leadership skills suited for senior roles."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "The work type preference is not specified in the candidate's profile or the job posting."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Salary expectations or offers are not provided in either document."
+      }
+    ],
+    "top_matches": [
+      "Proficient in Python, PyTorch, and TensorFlow.",
+      "8+ years in data science and machine learning.",
+      "Based in Berlin, Germany."
+    ],
+    "top_gaps": [
+      "No specific degree directly in data science or ML.",
+      "No explicit mention of teamwork or adaptability.",
+      "Work type preference is unspecified."
+    ],
+    "recommendation": "The candidate is well-qualified for senior data science or machine learning roles, especially in Berlin. Highlighting specific teamwork and adaptability examples could further strengthen the application. Consider applying unless the role demands a specific ML degree or work type preference that is non-negotiable.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388781944",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 92.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experienced in Python, PyTorch, TensorFlow, Scikit-learn",
+          "Strong background in LLM systems and evaluation frameworks",
+          "Proficient in Docker and CI/CD for MLOps",
+          "Experience with computer vision and generative AI",
+          "Proficient in data and model monitoring tools"
+        ],
+        "mismatches": [],
+        "notes": "The candidate's technical skills and expertise align perfectly with common requirements for AI and ML roles."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience in Data Science and Machine Learning",
+          "Proven track record in both startup and enterprise environments",
+          "Experience leading ML initiatives from development to deployment",
+          "Strong background in adaptive AI systems and LLM-based platforms",
+          "Significant experience in industrial visual inspection systems"
+        ],
+        "mismatches": [],
+        "notes": "The candidate has suitable and extensive experience for a senior role in AI development."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Located in Berlin, Germany",
+          "Fluent in German (B2 level)",
+          "Experience working in global and diverse environments"
+        ],
+        "mismatches": [],
+        "notes": "The candidate is located in Berlin and is well-positioned for local roles."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy",
+          "Completed relevant course 'Deep Learning for Computer Vision' from Stanford",
+          "Continued education in German language"
+        ],
+        "mismatches": [
+          "No advanced degree (e.g., Master's or PhD) in a directly related field"
+        ],
+        "notes": "Education is relevant but lacks an advanced degree specifically in AI or computer science."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Proven leadership in ML initiatives",
+          "Strong stakeholder communication skills",
+          "Experience in cross-functional collaboration",
+          "Innovative mindset in AI infrastructure"
+        ],
+        "mismatches": [],
+        "notes": "The candidate demonstrates strong soft skills relevant to leadership and collaborative roles."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Work type preference not specified in either CV or job posting"
+        ],
+        "notes": "Both CV and job posting lack details regarding work type preference."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "No salary expectation or offer details provided"
+        ],
+        "notes": "Salary details are not provided, limiting assessment in this category."
+      }
+    ],
+    "top_matches": [
+      "Strong technical stack matching with the AI/ML industry requirements",
+      "Extensive experience in senior roles across startups and enterprises",
+      "Located in Berlin with relevant language skills"
+    ],
+    "top_gaps": [
+      "Lack of advanced degree directly in AI or computer science",
+      "No specific work type preference indicated",
+      "Absence of salary data for expectation match"
+    ],
+    "recommendation": "Shachar Heyman should apply for the position given his robust experience and technical expertise in AI and ML, which perfectly align with typical requirements of such roles. Addressing the absence of a more advanced degree might further strengthen his applications.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388740241",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 92.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Proficient in Python, PyTorch, and TensorFlow.",
+          "Experienced with AI systems like LLM evaluation frameworks and generative models.",
+          "Familiarity with MLOps tools such as Docker, CI/CD, and model monitoring.",
+          "Strong background in domains like Computer Vision, Generative AI, and Anomaly Detection.",
+          "Extensive use of Scikit-learn and other data tools like Pandas and NumPy."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's tech stack perfectly aligns with the likely requirements of an AI-centric role."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience building production AI systems.",
+          "Led ML initiatives in both startups and enterprise environments.",
+          "Experience in designing end-to-end ML pipelines and deployment.",
+          "Machine Learning Engineer role at Siemens and Inspekto.",
+          "Consultant role demonstrating strategic leadership in AI."
+        ],
+        "mismatches": [],
+        "notes": "Extensive experience in relevant areas of AI and ML make them well-suited for advanced roles."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Based in Berlin, Germany, matching the job location."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's location in Berlin is ideal for this position."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. Mathematics & Philosophy from Tel Aviv University.",
+          "Completed a specialized course in Deep Learning for Computer Vision from Stanford."
+        ],
+        "mismatches": [
+          "No direct AI or ML degree, although relevant coursework undertaken."
+        ],
+        "notes": "Educational background is strong, with relevant technical courses supplementing the degree."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Proven stakeholder communication skills.",
+          "Cross-functional collaboration experience.",
+          "Leadership in innovation and ML project delivery."
+        ],
+        "mismatches": [
+          "No specific examples of teamwork in diverse environments noted."
+        ],
+        "notes": "Demonstrated strong soft skills with emphasis on leadership and communication."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [
+          "Experience in both startups and enterprise environments implies flexibility."
+        ],
+        "mismatches": [
+          "No specific work type preference mentioned."
+        ],
+        "notes": "Work type alignment is unclear due to lack of role specification."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary data available for comparison."
+      }
+    ],
+    "top_matches": [
+      "Excellent match in tech stack with relevant AI frameworks and MLOps tools.",
+      "Extensive and relevant work experience in ML initiatives.",
+      "Resides in Berlin, matching the job location."
+    ],
+    "top_gaps": [
+      "No direct AI or ML degree noted.",
+      "Unspecified work type preference.",
+      "No salary expectations or job salary data provided."
+    ],
+    "recommendation": "Shachar should definitely consider applying for this position. Their skill set, experience, and location are well-aligned with the typical demands of an ML Engineer role. They may wish to clarify their work type preferences and be prepared to discuss salary expectations during the interview process.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4360015719",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 92.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experienced in Python, PyTorch, TensorFlow, Scikit-learn.",
+          "Worked extensively with LLM evaluation frameworks.",
+          "Solid background in computer vision and generative AI.",
+          "Familiar with Docker and CI/CD processes.",
+          "Experienced in using Supabase/Postgres for data management."
+        ],
+        "mismatches": [],
+        "notes": "Candidate's technical expertise fully aligns with a typical data-centric role."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years in data science and machine learning roles.",
+          "Led ML initiatives from development to production.",
+          "Experience with both startups and large enterprises like Siemens.",
+          "Built production AI systems in computer vision.",
+          "Consulting experience with Convergent-AI."
+        ],
+        "mismatches": [],
+        "notes": "Candidate's experience is robust and aligns well with industry requirements."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Resides in Berlin, Germany, matching the job's location."
+        ],
+        "mismatches": [],
+        "notes": "Candidate is based in the same city as the job location, ensuring high compatibility."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy from Tel Aviv University.",
+          "Completed a course in Deep Learning for Computer Vision from Stanford University."
+        ],
+        "mismatches": [
+          "No advanced degree specifically in computer science."
+        ],
+        "notes": "Education is strong, though an advanced degree in a directly related field could enhance the profile."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Cross-functional collaboration.",
+          "Stakeholder communication.",
+          "Experience in innovation leadership.",
+          "Fluent in English and Hebrew, conversational in German."
+        ],
+        "mismatches": [
+          "No specific mention of teamwork, though implied."
+        ],
+        "notes": "Soft skills are well-documented, though more explicit teamwork examples could be beneficial."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Work type preference is not specified in either the CV or job posting."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary information is provided in either the CV or the job posting."
+      }
+    ],
+    "top_matches": [
+      "Strong technical skills in Python and machine learning frameworks.",
+      "8+ years of experience leading AI initiatives.",
+      "Local to Berlin, Germany."
+    ],
+    "top_gaps": [
+      "Absence of an advanced degree in computer science.",
+      "Lack of explicit work type preference.",
+      "Minimal detail on teamwork experience."
+    ],
+    "recommendation": "Shachar should consider applying, given the strong match in technical skills, location, and experience. Enhancing the profile with explicit teamwork examples and specifying work preferences could improve candidacy. While the education is strong, pursuing further formalized AI or data science qualifications could bolster future applications.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388789766",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 92.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with LLM systems and evaluation frameworks.",
+          "Proficiency in Python and popular ML frameworks like PyTorch and TensorFlow.",
+          "Experience with Docker and CI/CD which are crucial for MLOps.",
+          "Experience in computer vision and generative AI.",
+          "Experience with diverse AI systems, including conversational AI and anomaly detection."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's technical skills align perfectly with general AI and ML requirements."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience in data science and machine learning.",
+          "Experience leading ML initiatives from development to deployment.",
+          "Experience in both startups and enterprise environments like Siemens.",
+          "Has served in roles from ML Engineer to AI Consultant.",
+          "Proven track record in designing and deploying production AI systems."
+        ],
+        "mismatches": [],
+        "notes": "Candidate has substantial experience which aligns well with typical role expectations."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Currently based in Berlin, Germany."
+        ],
+        "mismatches": [],
+        "notes": "Candidate is located in Berlin, which is the job's location."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy from Tel Aviv University.",
+          "Completed course on Deep Learning for Computer Vision at Stanford."
+        ],
+        "mismatches": [
+          "No explicit advanced degrees in computer science or engineering fields."
+        ],
+        "notes": "Educational background is strong but lacks advanced degrees in computer science."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Proven cross-functional collaboration and stakeholder communication.",
+          "Leadership experience in innovation and team direction.",
+          "Experience in teaching and academic communication."
+        ],
+        "mismatches": [],
+        "notes": "Soft skills align well with expectations for leadership and collaboration roles."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "No explicit preference for work type (remote, on-site, hybrid) is mentioned."
+        ],
+        "notes": "Unclear preference for remote/on-site/hybrid working conditions."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary data is provided in either the CV or job posting."
+      }
+    ],
+    "top_matches": [
+      "Strong technical expertise in AI and ML technologies.",
+      "Location in Berlin aligns perfectly with the job's location.",
+      "Extensive experience leading AI initiatives."
+    ],
+    "top_gaps": [
+      "No explicit advanced degree in computer science, although experience compensates.",
+      "Work type preference (remote/on-site/hybrid) is not specified.",
+      "Salary expectation is not addressed."
+    ],
+    "recommendation": "Shachar Heyman is a highly qualified candidate for data science and ML roles with substantial experience and technical proficiency. Clarifying work type preference and salary expectations would strengthen applications. Enrollment in advanced CS-related courses could further reinforce credentials.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388282966",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 91.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, and TensorFlow for machine learning.",
+          "Proficient with CI/CD and MLOps tools.",
+          "Strong background in computer vision and generative models.",
+          "Experience with LLM evaluation frameworks and conversational AI systems.",
+          "Uses Docker and model monitoring practices."
+        ],
+        "mismatches": [],
+        "notes": "Candidate has a strong alignment with the technical skills required for a Data Science and Machine Learning role."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of ML and AI experience.",
+          "Has worked with both startups and enterprise environments.",
+          "Experience in designing end-to-end ML pipelines.",
+          "Leadership in AI initiatives within teams.",
+          "Background in production deployment of AI systems."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's experience matches well with advanced and leadership roles in AI/ML fields."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Located in Berlin, Germany, matching the job location."
+        ],
+        "mismatches": [],
+        "notes": "Candidate is situated in the exact location required by the job."
+      },
+      {
+        "name": "education",
+        "score": 0.7,
+        "weight": 0.1,
+        "weighted_score": 0.06999999999999999,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy from Tel Aviv University.",
+          "Completed a specialized deep learning course at Stanford University."
+        ],
+        "mismatches": [
+          "No advanced degree such as MSc or PhD in computer science-related fields mentioned."
+        ],
+        "notes": "Educational background is strong but lacks advanced degrees in direct AI/ML fields."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Cross-functional collaboration.",
+          "Stakeholder communication.",
+          "Leadership in innovation."
+        ],
+        "mismatches": [
+          "Limited explicit mention of teamwork or team management."
+        ],
+        "notes": "Strong soft skills with emphasis on leadership and communication, but lacks specific teamwork examples."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Work type preferences are not specified, leaving some uncertainty."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Salary expectations and job compensation are not listed."
+      }
+    ],
+    "top_matches": [
+      "Extensive experience and leadership in ML and AI systems.",
+      "Strong technical skills aligning with advanced ML toolsets.",
+      "Located in Berlin, fitting the job's location requirement."
+    ],
+    "top_gaps": [
+      "Lacks specification of work type preference.",
+      "No advanced degree in computer science or related fields.",
+      "Limited explicit mention of teamwork or team management."
+    ],
+    "recommendation": "Shachar Heyman is a strong candidate for roles requiring advanced AI/ML expertise, particularly in Berlin. Strengthening credentials with more formal education in AI and including specifics on work type preference could enhance the profile further.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388743204",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 91.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, TensorFlow which are common in data science roles.",
+          "Knowledge in AI systems including LLM evaluation frameworks and generative models.",
+          "Proficiency in data and MLOps tools like Docker and CI/CD.",
+          "Strong background in domains such as Computer Vision and Conversational AI.",
+          "Use of Supabase/Postgres for data management aligns well with expected skills."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's tech stack closely aligns with typical data science roles, showing strong expertise in relevant frameworks and tools."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of experience in data science and machine learning.",
+          "Led ML initiatives from development to production in various environments.",
+          "Experience as a consultant advising on data science strategies.",
+          "Worked on end-to-end ML pipelines in industrial settings.",
+          "Experience with start-ups and large enterprises, showing versatility."
+        ],
+        "mismatches": [],
+        "notes": "Extensive experience relevant to advanced data science roles, including leadership in ML initiatives."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Lives in Berlin, Germany which matches the job location."
+        ],
+        "mismatches": [],
+        "notes": "Candidate resides in the same city as the job posting, indicating perfect geographic alignment."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy relevant for analytical roles.",
+          "Certification in Deep Learning for Computer Vision from Stanford."
+        ],
+        "mismatches": [
+          "No advanced degrees like MSc or PhD typically sought in specialized roles."
+        ],
+        "notes": "While the candidate holds a relevant bachelor's degree and additional certification, an advanced degree would strengthen the education profile."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "Cross-functional collaboration experience.",
+          "Strong stakeholder communication skills.",
+          "Leadership in innovation shown through various project descriptions."
+        ],
+        "mismatches": [
+          "No explicit mention of team management or mentoring beyond collaboration and leadership."
+        ],
+        "notes": "Good soft skills in collaboration and communication, with demonstrated leadership in projects, though no explicit team management experience."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Work type preference not specified but previous roles indicate flexibility with remote/hybrid arrangements."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Salary expectations are not provided, nor is the salary information listed in the job posting."
+      }
+    ],
+    "top_matches": [
+      "Extensive experience in data science and AI with 8+ years.",
+      "Strong technical stack alignment with common data science tools and frameworks.",
+      "Geographically located in Berlin, Germany, matching the job location."
+    ],
+    "top_gaps": [
+      "No advanced degree beyond a B.Sc.",
+      "Lack of explicit team management experience.",
+      "Salary expectations are not addressed."
+    ],
+    "recommendation": "Shachar Heyman is a strong candidate given their location, technical expertise, and extensive experience in AI and data science. To strengthen the application, consider pursuing advanced degrees or certifications. Clarifying work type preferences and salary expectations could also enhance the alignment with potential employers.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388739245",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 91.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, TensorFlow, Scikit-learn",
+          "Proficiency in LLM evaluation frameworks and conversational AI systems",
+          "Experience with Docker, CI/CD, and model monitoring",
+          "Expertise in computer vision, generative AI, and anomaly detection",
+          "Mathematical foundation including linear algebra and probability"
+        ],
+        "mismatches": [],
+        "notes": "The candidate's technical skills perfectly align with the expected requirements for a tech-focused role."
+      },
+      {
+        "name": "experience",
+        "score": 1.0,
+        "weight": 0.25,
+        "weighted_score": 0.25,
+        "matches": [
+          "8+ years of machine learning and AI experience",
+          "Led ML initiatives from development to deployment",
+          "Experience in startups and enterprise environments",
+          "Designed and deployed deep learning systems for industrial applications",
+          "Experience in cross-functional collaboration"
+        ],
+        "mismatches": [],
+        "notes": "The candidate's extensive experience and leadership in AI projects are a strong match for any senior ML engineering role."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Resides in Berlin, Germany which matches the job location"
+        ],
+        "mismatches": [],
+        "notes": "The candidate's location in Berlin aligns perfectly with the job requirements."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy",
+          "Completed Stanford University's CS231n course in deep learning",
+          "German language proficiency (A1-B2)"
+        ],
+        "mismatches": [
+          "No advanced degree like Master's or Ph.D. in a related field"
+        ],
+        "notes": "The candidate has a strong educational background, although a higher degree could enhance their profile."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "Cross-functional collaboration",
+          "Stakeholder communication",
+          "Innovation leadership"
+        ],
+        "mismatches": [
+          "Limited information on interpersonal skills like teamwork explicitly"
+        ],
+        "notes": "The candidate demonstrates key soft skills relevant to leadership and collaboration but could expand on specific interpersonal skills."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Work type preference not specified by candidate",
+          "Job posting does not specify work type (remote/hybrid/on-site)"
+        ],
+        "notes": "Neither the CV nor the job posting specifies preferences for work type, making alignment unclear."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "No salary expectations provided by candidate",
+          "Salary not listed in job posting"
+        ],
+        "notes": "No salary information is available to evaluate alignment."
+      }
+    ],
+    "top_matches": [
+      "Experience with Python, PyTorch, TensorFlow, Scikit-learn",
+      "8+ years of machine learning and AI experience",
+      "Resides in Berlin, Germany"
+    ],
+    "top_gaps": [
+      "No advanced degree like Master's or Ph.D.",
+      "Limited information on interpersonal skills",
+      "Work type and salary preferences not specified"
+    ],
+    "recommendation": "The candidate is a strong fit for technical roles in AI and machine learning in Berlin, especially given their extensive experience and technical proficiency. Strengthening interpersonal skill descriptions and clarifying work type preferences could enhance their application. Given the alignment, they should pursue opportunities like this one.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388737269",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 90.5,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, and TensorFlow.",
+          "Developed LLM and computer vision systems.",
+          "Skilled in Docker and CI/CD for MLOps.",
+          "Proficient in generative and conversational AI.",
+          "Strong mathematical foundation for AI work."
+        ],
+        "mismatches": [],
+        "notes": "Candidate's tech stack aligns perfectly with modern AI and ML demands."
+      },
+      {
+        "name": "experience",
+        "score": 0.9,
+        "weight": 0.25,
+        "weighted_score": 0.225,
+        "matches": [
+          "8+ years experience in AI and ML.",
+          "Experience in both startups and enterprises.",
+          "Led ML initiatives from development to deployment.",
+          "Worked on AI systems with measurable real-world impact.",
+          "Consulting role demonstrates strategic expertise."
+        ],
+        "mismatches": [
+          "Job posting did not specify experience, so exact match cannot be fully determined."
+        ],
+        "notes": "Extensive experience aligns very well with typical senior-level roles."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is based in Berlin, Germany.",
+          "Location matches the job's location requirement."
+        ],
+        "mismatches": [],
+        "notes": "Candidate is geographically well-positioned for this role."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy.",
+          "Completed advanced deep learning course at Stanford.",
+          "German language proficiency at B2 level."
+        ],
+        "mismatches": [
+          "No direct mention of postgraduate degrees like Master's or Ph.D."
+        ],
+        "notes": "Educational background is robust but lacks postgraduate certification."
+      },
+      {
+        "name": "soft_skills",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Cross-functional collaboration.",
+          "Stakeholder communication.",
+          "Innovation leadership.",
+          "Proven experience in leading ML teams.",
+          "Teaching assistant experience indicates communication skills."
+        ],
+        "mismatches": [],
+        "notes": "Demonstrated soft skills align perfectly with leadership and collaborative roles."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "No specific work type preference is noted in CV."
+        ],
+        "notes": "Work type preference is unspecified in the job and in the CV."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary information provided on either the job description or the CV."
+      }
+    ],
+    "top_matches": [
+      "Strong alignment with Python, PyTorch, TensorFlow skills.",
+      "Over 8 years of relevant AI and ML experience.",
+      "Located in Berlin, matching job location."
+    ],
+    "top_gaps": [
+      "Education does not include a postgraduate degree.",
+      "Work type preferences remain unspecified.",
+      "Salary expectations and offers are not detailed."
+    ],
+    "recommendation": "Shachar Heyman is highly qualified for a senior data science or machine learning role. Considering the strong technical and experiential alignment, he should enhance his application by clarifying his work type preferences and providing any salary expectations if possible. An application to this Berlin-based position is recommended.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388738295",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 89.5,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, and TensorFlow.",
+          "Experience in building AI systems and ML pipelines.",
+          "Knowledge of computer vision and conversational AI systems.",
+          "Proficient in data and MLOps tools such as Docker and CI/CD.",
+          "Experience with generative models and anomaly detection."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's technical skills and experience in the tech stack are highly aligned with the role, showing strong proficiency in relevant technologies."
+      },
+      {
+        "name": "experience",
+        "score": 0.9,
+        "weight": 0.25,
+        "weighted_score": 0.225,
+        "matches": [
+          "8+ years of experience in data science and machine learning.",
+          "Experience in both startups and enterprise environments.",
+          "Experience leading ML initiatives from development to deployment.",
+          "Experience as a consultant and in company roles such as Siemens.",
+          "Capability in designing and deploying ML architecture."
+        ],
+        "mismatches": [
+          "The job posting does not specify years of experience required."
+        ],
+        "notes": "Candidate's extensive experience and leadership in ML projects matches well with potential expectations of the role."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Based in Berlin, Germany."
+        ],
+        "mismatches": [],
+        "notes": "Candidate is perfectly located for the job based in Berlin, thus aligning with location requirements."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy.",
+          "Completed a Stanford University course in Deep Learning for Computer Vision.",
+          "Continued education in German language skills."
+        ],
+        "mismatches": [
+          "No additional advanced degrees such as a Master's or PhD in a directly related field."
+        ],
+        "notes": "Educational background is strong but could be further enhanced with advanced degrees specifically in AI or Computer Science."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Proven cross-functional collaboration skills.",
+          "Strong stakeholder communication abilities.",
+          "Demonstrated innovation and leadership capabilities.",
+          "Experience in teaching and assisting in academic environments."
+        ],
+        "mismatches": [],
+        "notes": "Soft skills are well-developed and indicative of a capable communicator and leader."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [
+          "Flexible work type not specified, but candidate has experience in various settings."
+        ],
+        "mismatches": [
+          "Candidate's preference for remote or hybrid work is not clearly stated."
+        ],
+        "notes": "Work type preferences are not specified, limiting the evaluation of alignment here."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary expectations or job listing salary provided, hence this assessment is neutral."
+      }
+    ],
+    "top_matches": [
+      "Extensive experience in data science and machine learning.",
+      "Strong technical skills in AI systems, ML pipelines, and relevant technologies.",
+      "Perfect location match in Berlin, Germany."
+    ],
+    "top_gaps": [
+      "No specified advanced degree in AI fields like a Master's or PhD.",
+      "Work type preference alignment is unclear due to lack of specification.",
+      "Lack of specific salary and experience requirements in job listing limits precise matching."
+    ],
+    "recommendation": "Shachar is well-suited for a data scientist or ML engineer role, especially in AI systems development and deployment in Berlin. Addressing gaps in advanced educational qualifications and clarifying work type preferences could strengthen future applications.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388295669",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 89.5,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, and TensorFlow.",
+          "Proficient in LLM systems and evaluation frameworks.",
+          "Experienced with AI systems, particularly in computer vision and generative models.",
+          "Familiarity with Docker and CI/CD processes.",
+          "MLOps and data management skills using Supabase/Postgres, Pandas, and NumPy."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's technical expertise closely aligns with typical skills expected in data science and AI roles."
+      },
+      {
+        "name": "experience",
+        "score": 0.9,
+        "weight": 0.25,
+        "weighted_score": 0.225,
+        "matches": [
+          "8+ years in data science and machine learning roles.",
+          "Led initiatives from development to deployment in both startups and enterprise environments.",
+          "Worked with industrial visual inspection and generative data augmentation.",
+          "Experience in both technical and leadership capacities.",
+          "Consultant role emphasizing strategic data science design."
+        ],
+        "mismatches": [
+          "No specific experience requirements listed in the job posting for direct comparison."
+        ],
+        "notes": "The candidate has significant experience that suggests they are highly qualified, though the job posting lacks specific requirements."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Resides in Berlin, Germany, which matches the job location."
+        ],
+        "mismatches": [],
+        "notes": "The candidate is ideally located in Berlin, matching the job location perfectly."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy from Tel Aviv University.",
+          "Further specialized training in deep learning for computer vision."
+        ],
+        "mismatches": [],
+        "notes": "While there is no specific education requirement, the candidate has a strong academic background relevant to the field."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Strong cross-functional collaboration skills.",
+          "Proficient in stakeholder communication.",
+          "Demonstrated innovation leadership.",
+          "Experience leading ML-related technical directions.",
+          "Multilingual capabilities, enhancing communication in diverse teams."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's soft skills are robust and well-suited for roles requiring teamwork, leadership, and effective communication."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "No specific work type preference stated by the candidate."
+        ],
+        "notes": "The job posting does not specify a work type, and the candidate has no stated preference."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary information is provided in the job posting or the CV."
+      }
+    ],
+    "top_matches": [
+      "Extensive experience with Python, PyTorch, TensorFlow, and other leading AI tools.",
+      "Resides in Berlin, perfectly aligning with job location.",
+      "Proven track record of leading AI projects from conception to deployment."
+    ],
+    "top_gaps": [
+      "No specific work type preference or details provided.",
+      "Lack of explicit salary expectations and job-related salary information.",
+      "Job posting lacks explicit requirements for precise experience comparison."
+    ],
+    "recommendation": "The candidate appears highly qualified for roles in data science and AI in Berlin, with a strong technical and soft skill set. They should consider applying, especially if the role demands leadership in AI development and strategic initiatives. Clarifying work type and salary expectations beforehand may be beneficial.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388792594",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 88.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with Python, PyTorch, TensorFlow, and Scikit-learn.",
+          "Skills in Docker and CI/CD for MLOps.",
+          "Experience with LLM evaluation frameworks and generative models.",
+          "Expertise in computer vision and conversational AI systems.",
+          "Background in anomaly detection."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's technical skills perfectly align with the job's requirements based on the implicit needs in their domain of AI and machine learning."
+      },
+      {
+        "name": "experience",
+        "score": 0.8,
+        "weight": 0.25,
+        "weighted_score": 0.2,
+        "matches": [
+          "8+ years of experience in AI systems and machine learning.",
+          "Led ML initiatives in both startups and enterprise environments.",
+          "Experience in end-to-end ML pipeline design and deployment.",
+          "Proven track record in leading ML projects from development to deployment."
+        ],
+        "mismatches": [
+          "Specific required years of experience not listed in the job posting."
+        ],
+        "notes": "The candidate has extensive experience that should align well with the expectations of the role, though specific job requirements are not detailed."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Located in Berlin, Germany, matching the job's location requirement."
+        ],
+        "mismatches": [],
+        "notes": "The candidate is perfectly located for the job position in Berlin."
+      },
+      {
+        "name": "education",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy, pertinent for a logical and analytical job.",
+          "Completed deep learning courses relevant to the job.",
+          "German language proficiency could be advantageous."
+        ],
+        "mismatches": [
+          "No specific educational requirements stated in the job posting."
+        ],
+        "notes": "Educational background is well-suited to the job, though specifics are not listed in the job posting."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Proven cross-functional collaboration and stakeholder communication skills.",
+          "Leadership experience in innovation.",
+          "Experience as a teaching assistant suggests a capacity for clarity in communication."
+        ],
+        "mismatches": [],
+        "notes": "Strong indicators of effective soft skills relevant to the role."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "The job posting does not specify work type preferences (remote/on-site/hybrid)."
+        ],
+        "notes": "Without a specific preference indicated for work type, this area remains neutral."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "No salary expectations or compensation listed in either the CV or the job posting."
+        ],
+        "notes": "There's no salary information available to evaluate compatibility."
+      }
+    ],
+    "top_matches": [
+      "Expertise in relevant AI and ML technologies and frameworks.",
+      "8+ years of experience handling ML projects from conception to deployment.",
+      "Candidate is located in Berlin, matching the job's location."
+    ],
+    "top_gaps": [
+      "No specifics on work type preference, which remains unspecified in the job.",
+      "No salary details provided to gauge compatibility.",
+      "Exact seniority or specific years of experience required are not detailed in the job posting."
+    ],
+    "recommendation": "The candidate is highly qualified based on their technical expertise, vast experience, and perfect geographic location for the job. They should seek clarification on the work type and compensation details during the application process.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388775085",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 87.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Experience with LLM evaluation frameworks.",
+          "Proficient in Python, PyTorch, and TensorFlow.",
+          "Extensive experience in computer vision.",
+          "Skilled in Docker and CI/CD for ML deployment.",
+          "Expertise in generative models and anomaly detection."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's tech stack fully aligns with potential job requirements in AI and machine learning."
+      },
+      {
+        "name": "experience",
+        "score": 0.8,
+        "weight": 0.25,
+        "weighted_score": 0.2,
+        "matches": [
+          "8+ years in data science and machine learning.",
+          "Experience with both startups and enterprise environments.",
+          "Led AI initiatives and designed end-to-end ML pipelines.",
+          "Experience in teaching assistantship indicates mentoring potential."
+        ],
+        "mismatches": [
+          "Specific experience requirements of the job are not provided."
+        ],
+        "notes": "The candidate possesses strong professional experience suitable for high-level roles, though job-specific details are missing."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is based in Berlin, Germany, matching job location."
+        ],
+        "mismatches": [],
+        "notes": "Location is a perfect match as both the candidate and job are based in Berlin."
+      },
+      {
+        "name": "education",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy from Tel Aviv University.",
+          "Completed a course in Deep Learning for Computer Vision from Stanford University.",
+          "Conversational German language skills."
+        ],
+        "mismatches": [
+          "No advanced degree in computer science or related field."
+        ],
+        "notes": "The educational background is strong but lacks an advanced degree specifically in computer science."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.9,
+        "weight": 0.1,
+        "weighted_score": 0.09000000000000001,
+        "matches": [
+          "Cross-functional collaboration skills.",
+          "Strong stakeholder communication abilities.",
+          "Innovation leadership."
+        ],
+        "mismatches": [
+          "Limited direct references to teamwork or project management."
+        ],
+        "notes": "The candidate has strong soft skills relevant to leadership and communication roles, though explicit teamwork examples are limited."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Work type preference of the candidate is not specified.",
+          "Job posting does not clarify if remote, hybrid, or on-site work is preferred."
+        ],
+        "notes": "Work type alignment cannot be fully assessed due to a lack of information from both sides."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Salary comparison is not possible due to lack of information."
+      }
+    ],
+    "top_matches": [
+      "Tech stack including LLM, computer vision, and CI/CD aligns perfectly.",
+      "Candidate is located in Berlin, aligning with the job location.",
+      "Strong professional experience with 8+ years in AI and ML roles."
+    ],
+    "top_gaps": [
+      "Absence of specified work type preference.",
+      "No advanced degree in computer science is indicated.",
+      "Explicit salary expectations or offerings are unavailable."
+    ],
+    "recommendation": "The candidate should apply, leveraging their extensive experience and tech stack expertise in AI and machine learning. Consider clarifying salary expectations and work type preferences in further discussions.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "linkedin:4388745381",
+      "title": "",
+      "company": "",
+      "location": "Berlin, Berlin, Germany",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "",
+      "source": "linkedin",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 80.5,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 1.0,
+        "weight": 0.35,
+        "weighted_score": 0.35,
+        "matches": [
+          "Proficient in Python, PyTorch, and TensorFlow.",
+          "Experience with LLM evaluation, conversational AI systems.",
+          "Familiarity with Docker, CI/CD, and model monitoring.",
+          "Hands-on experience with computer vision and generative models.",
+          "Skilled in data management using Pandas and NumPy."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's tech stack perfectly matches the unspecified job description, showcasing extensive expertise in relevant technologies."
+      },
+      {
+        "name": "experience",
+        "score": 0.5,
+        "weight": 0.25,
+        "weighted_score": 0.125,
+        "matches": [
+          "8+ years of experience in data science and machine learning.",
+          "Proven track record in building production AI systems.",
+          "Led ML initiatives in both startup and enterprise environments.",
+          "Experience with end-to-end ML pipeline development."
+        ],
+        "mismatches": [
+          "No specific experience level required in the job posting."
+        ],
+        "notes": "While the CV demonstrates extensive experience, the job posting provides no specific experience requirements, preventing a perfect score."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Based in Berlin, Germany, matching the job location."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's location in Berlin aligns perfectly with the job location requirement."
+      },
+      {
+        "name": "education",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "B.Sc. in Mathematics & Philosophy from Tel Aviv University.",
+          "Completed a deep learning course from Stanford University.",
+          "Proficient in German, having completed language courses."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's education meets or exceeds typical qualifications for a data scientist role."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.8,
+        "weight": 0.1,
+        "weighted_score": 0.08000000000000002,
+        "matches": [
+          "Strong cross-functional collaboration skills.",
+          "Proven stakeholder communication abilities.",
+          "Leadership in innovation."
+        ],
+        "mismatches": [
+          "No direct mention of teamwork skills."
+        ],
+        "notes": "Candidate showcases strong communication and leadership skills, although teamwork skills are not explicitly mentioned."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Job posting does not specify work type preference."
+        ],
+        "notes": "The candidate's preference for work type is unclear due to the lack of details in the job posting."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary information is provided in the job posting or candidate's CV."
+      }
+    ],
+    "top_matches": [
+      "Candidate's tech stack is perfectly aligned with relevant technologies.",
+      "Resides in Berlin, directly matching job location.",
+      "Extensive experience in building production AI systems."
+    ],
+    "top_gaps": [
+      "No explicit teamwork skills mentioned.",
+      "Work type preference not specified.",
+      "Salary expectations unspecified."
+    ],
+    "recommendation": "Shachar Heyman is a well-qualified candidate for roles in AI and data science, particularly in environments leveraging LLM systems and computer vision. To enhance applications, explicitly mention teamwork contributions and clarify work type and salary expectations if possible.",
+    "apply_recommended": true
+  },
+  {
+    "job": {
+      "id": "indeed:ee5d63f3ca36a187",
+      "title": "Fahrradverkäufer (m/w/d) gesucht!",
+      "company": "Radcompany",
+      "location": "Berlin-Marienfelde",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "In unserem exklusiven CUBE Store Berlin-Marienfelde präsentierst Du Deinen Kunden*innen ein umfangreiches und hervorragendes Angebot an verschiedenen Modellen aus der über 380 Bikes umfassenden Modellpalette. Die von CUBE und uns geschaffene Atmosphäre bietet zudem das perfekte Einkaufserlebnis. Auf der Suche nach dem passenden Modell können die neusten Bikes direkt vor Ort getestet werden. In dem großen Angebot von E-Bikes, Mountainbikes, Rennrädern, Trekking und Cross Bikes hilfst Du als intensiv geschulte/r Mitarbeiter*innen mit Fachwissen und Produktexpertise gerne weiter.\n\nIhre Aufgaben:\n\nVerkauf von Fahrrädern, E-Bikes und Zubehör\nKassentätigkeit\nWarenauszeichnung\nWarenpräsentation\nBedienung Warenwirtschaftssystem\n\nIhre Anforderungen:\n\nDu bist begeistert von Fahrrädern.\nBesonders relevant für uns sind folgende persönliche Eigenschaften von Dir: Teamfähigkeit; Spaß im Umgang mit Menschen sowie gute Umgangsformen; Erfolgswillen; Kreativität; selbstständiges Arbeiten;\nEine abgeschlossene Ausbildung ist gerne gesehen, jedoch nicht zwingend erforderlich.\nBerufserfahrung im Fahrradhandel ist von Vorteil, jedoch bieten wir auch Quereinsteigern*innen eine Chance.\n\nWir bieten:\n\nDu erlebst einen Job in einer tollen Atmosphäre an einem modernen Arbeitsplatz\nDu kannst in einem flexiblen Team mit deinen kreativen Ideen mitwirken.\nDu hast als Verkäufer*in eine 5-Tage-Woche und jeden 2. Samstag frei\n\nIhre Bewerbung richten Sie bitte an:\ni.ludwig@radcompany.de",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "https://de.indeed.com/viewjob?jk=ee5d63f3ca36a187",
+      "source": "indeed",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 29.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 0.0,
+        "weight": 0.35,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "The role requires expertise in bicycle sales, not technology or data science.",
+          "No requirement for programming languages or ML frameworks.",
+          "Tech tools like Docker, CI/CD, and AI Systems are unrelated to this role."
+        ],
+        "notes": "The technical expertise of the candidate does not align with the requirements of a bike sales position."
+      },
+      {
+        "name": "experience",
+        "score": 0.2,
+        "weight": 0.25,
+        "weighted_score": 0.05,
+        "matches": [
+          "Previous roles involve customer interaction and cross-functional collaboration.",
+          "Experience in strategy and leading initiatives may transfer to a sales role."
+        ],
+        "mismatches": [
+          "No direct experience in bicycle sales or retail.",
+          "Engineering and data science roles are not directly applicable.",
+          "Teaching assistant experience unrelated to sales."
+        ],
+        "notes": "The candidate has customer interaction experience but lacks specific retail or bicycle sales experience."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is located in Berlin, Germany.",
+          "Job location is in Berlin-Marienfelde, compatible with the candidate's location."
+        ],
+        "mismatches": [],
+        "notes": "The candidate is perfectly located for the job in Berlin."
+      },
+      {
+        "name": "education",
+        "score": 0.3,
+        "weight": 0.1,
+        "weighted_score": 0.03,
+        "matches": [
+          "The candidate has a B.Sc. degree indicating a solid educational background."
+        ],
+        "mismatches": [
+          "No specific education related to retail or sales.",
+          "Job does not require a high level of formal education."
+        ],
+        "notes": "The educational background is strong but not directly relevant to retail or sales."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.6,
+        "weight": 0.1,
+        "weighted_score": 0.06,
+        "matches": [
+          "Candidate has stakeholder communication experience.",
+          "Demonstrates cross-functional collaboration skills.",
+          "Described as having innovation leadership, which could translate to creativity."
+        ],
+        "mismatches": [
+          "No specific mention of a passion for bicycles.",
+          "No explicit mention of enjoyment in direct customer service roles."
+        ],
+        "notes": "The candidate possesses relevant soft skills, but lacks direct retail experience and expressed enthusiasm for bicycles."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [
+          "Has experience in flexible environments."
+        ],
+        "mismatches": [
+          "Work type preference (remote/on-site) is not specified in the job posting or CV."
+        ],
+        "notes": "There is no explicit match or mismatch in work type preference."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary information is available."
+      }
+    ],
+    "top_matches": [
+      "Candidate is located in Berlin, aligning perfectly with the job location.",
+      "Strong stakeholder communication and cross-functional collaboration skills.",
+      "Experience in customer interaction through previous roles."
+    ],
+    "top_gaps": [
+      "No experience in bicycle sales or retail.",
+      "Lack of specified passion for bicycles, which is pivotal for the role.",
+      "Educational background and technical skills do not align with retail or sales."
+    ],
+    "recommendation": "The candidate should consider roles that leverage their strong data science and machine learning background. Although soft skills and location match, a passion for bicycles and retail experience are crucial for the bike sales role. They might explore tech-driven companies in related sectors or roles that need cross-disciplinary skills combining data science with customer-oriented tasks.",
+    "apply_recommended": false
+  },
+  {
+    "job": {
+      "id": "indeed:934740cd228e124f",
+      "title": "Verkäufer (m/w/d)",
+      "company": "Action",
+      "location": "Berlin-Tempelhof",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "Verkäufer (m/w/d)\n\nAnzahl Wochenstunden: 20-28\n\nArbeiten wo Action ist!\n\nWir sind eines der am schnellsten wachsenden Handelsunternehmen Europas und sind aktuell europaweit in 14 Ländern vertreten. Bei uns erwarten Dich abwechslungsreiche Aufgaben mit wöchentlich 150 neuen Produkten und viele Karrierechancen. Werde Teil unseres Teams und gestalte unseren Erfolg aktiv mit!\n\nDas bieten wir\n\nVergütung über Mindestlohn mindestens 15€/Std\nMinutengenaue Zeiterfassung\nWeihnachtsgeld\n6 Wochen Urlaub im Jahr\nBetriebliche Altersvorsorge\nTrainings & Weiterentwicklung\n15% Mitarbeiter Rabatt\nTeamevents\nDeine Aufgaben\n\nWarenverräumung & Annahme von Lieferungen – im täglichen Filialgeschäft\nPlatzierung & Präsentation von neuen Produkten\nKassiertätigkeiten sowie Bearbeiten von Reklamationen\nBeratung von Kunden – in der Filiale und an der Kasse\nUnterstützung bei Inventuren – Warenbestandszählungen und Erfassung von Daten\nDas bringt unser Action Hero mit:\n\nQuereinsteiger willkommen – Berufserfahrung im Einzelhandel wünschenswert\nZeitliche Flexibilität (auch abends und samstags)\nSpaß an der Arbeit im Team & Lust mit anzupacken\nAufgeschlossene Art und Freude am Umgang mit unseren Kunden\nIdentifikation mit den Action Werten – Teamwork , Disziplin, Kostenbewusstsein, Einfachheit, Respekt und Kundenorientierung\nBegeistert?\n\nWir freuen uns auf Deine digitale Bewerbung inklusive Angaben zu Deinem möglichen Starttermin und Deiner Gehaltsvorstellung über die unten stehende Schaltfläche. Postalische Bewerbungen können aus Datenschutzgründen nicht bearbeitet werden.\nZur besseren Lesbarkeit verwenden wir die männliche Form, begrüßen bei uns aber herzliche alle Menschen unabhängig von Geschlecht, Herkunft, Behinderung, Religion, Alter oder Identität.",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "https://de.indeed.com/viewjob?jk=934740cd228e124f",
+      "source": "indeed",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 28.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 0.0,
+        "weight": 0.35,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Candidate specializes in AI and machine learning, which is not relevant to the retail position."
+        ],
+        "notes": "The candidate's technical skills in AI do not align with the requirements of the retail sales position."
+      },
+      {
+        "name": "experience",
+        "score": 0.2,
+        "weight": 0.25,
+        "weighted_score": 0.05,
+        "matches": [
+          "Experience in stakeholder communication may help with customer service."
+        ],
+        "mismatches": [
+          "No direct retail or sales experience.",
+          "The experience is mostly in data science and engineering, which is not relevant to retail operations."
+        ],
+        "notes": "While the candidate has substantial experience, it is not in retail; however, communication skills could be beneficial."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is located in Berlin, where the job is located."
+        ],
+        "mismatches": [],
+        "notes": "Candidate is perfectly located for the job."
+      },
+      {
+        "name": "education",
+        "score": 0.2,
+        "weight": 0.1,
+        "weighted_score": 0.020000000000000004,
+        "matches": [
+          "Degree in Mathematics & Philosophy indicates analytical skills."
+        ],
+        "mismatches": [
+          "No formal education related to retail or sales."
+        ],
+        "notes": "Educational background does not directly support retail tasks but indicates strong analytical capabilities."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.6,
+        "weight": 0.1,
+        "weighted_score": 0.06,
+        "matches": [
+          "Cross-functional collaboration experience.",
+          "Stakeholder communication skills.",
+          "Innovation leadership can translate to problem-solving."
+        ],
+        "mismatches": [
+          "No explicit mention of teamwork in a retail environment."
+        ],
+        "notes": "Soft skills in communication and collaboration are strong, though specific retail application is unclear."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "Work type preference is not specified in the job description, nor in the candidate's profile."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary expectation provided and job listing does not specify compensation beyond minimum wage."
+      }
+    ],
+    "top_matches": [
+      "Candidate is located in Berlin.",
+      "Strong communication skills.",
+      "Experience with cross-functional collaboration."
+    ],
+    "top_gaps": [
+      "No direct retail or customer service experience.",
+      "Technical AI skills are not relevant.",
+      "No formal education or training in retail."
+    ],
+    "recommendation": "The candidate should pivot to emphasize soft skills and geographical proximity when applying for retail positions. Gaining some experience in the retail sector could improve candidacy. Consider roles that require communication and analytical skills.",
+    "apply_recommended": false
+  },
+  {
+    "job": {
+      "id": "indeed:fc808d339905255c",
+      "title": "Mitarbeiter/in im Außendienst (m/w/d)",
+      "company": "PARKRÄUME KG",
+      "location": "Berlin",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "Zur Verstärkung unseres Teams suchen wir zum nächstmöglichen Zeitpunkt belastbare, vertrauensvolle, zuverlässige und sorgfältige Mitarbeiter/innen mit guten Ortskenntnissen, die über sehr gute Umgangsformen, ein selbstbewusstes und dennoch ruhiges Wesen sowie sehr gute Deutschkenntnisse in Wort und Schrift verfügen. Gute PC-Grundkenntnisse und ein einwandfreies Führungszeugnis sind Voraussetzung.\n\nStandorte\nBerlin\nDarmstadt\nDüsseldorf\nFrankfurt\nMainz\nMünchen\nWiesbaden\nDüsseldorf\n\nWir bieten eine interessante und abwechslungsreiche Tätigkeit bei flexibler Arbeitszeit und eine leistungsorientierte Bezahlung in einem stark expandierenden Markt.\nFührerschein Klasse 3 bzw. B ist Voraussetzung. Interessiert? Wir freuen uns auf Ihre Bewerbung!\n\nBitte kontaktieren Sie uns Tel.: 0177 / 747 2000 oder mailen Sie uns Ihre Bewerbung einfach an info@parkraeume.de\n\nWir wertschätzen Vielfalt und begrüßen daher alle Bewerbungen – unabhängig von Geschlecht, Nationalität, ethnischer und sozialer Herkunft, Religion/Weltanschauung, Behinderung, Alter sowie sexueller Orientierung und Identität.",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "https://de.indeed.com/viewjob?jk=fc808d339905255c",
+      "source": "indeed",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 26.5,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 0.1,
+        "weight": 0.35,
+        "weighted_score": 0.034999999999999996,
+        "matches": [
+          "Good PC knowledge required matched by experience with Docker, CI/CD, and various AI frameworks."
+        ],
+        "mismatches": [
+          "Role requires basic PC knowledge whereas candidate's expertise is in advanced AI systems."
+        ],
+        "notes": "The tech stack requirements are minimal, and the candidate's skills are largely advanced beyond what's needed."
+      },
+      {
+        "name": "experience",
+        "score": 0.0,
+        "weight": 0.25,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Job requires very different experience compared to AI and machine learning systems development."
+        ],
+        "notes": "There is no alignment between the detailed AI and data science experience of the candidate and the job's unspecified role requirements."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is based in Berlin, where the job is located."
+        ],
+        "mismatches": [],
+        "notes": "Perfect match in terms of geographic location."
+      },
+      {
+        "name": "education",
+        "score": 0.2,
+        "weight": 0.1,
+        "weighted_score": 0.020000000000000004,
+        "matches": [
+          "B.Sc. in Mathematics provides strong analytical foundation."
+        ],
+        "mismatches": [
+          "Educational focus on advanced AI and data science is not aligned with the job requirements."
+        ],
+        "notes": "The candidate's higher education is not particularly relevant to the role's unspecified needs."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.6,
+        "weight": 0.1,
+        "weighted_score": 0.06,
+        "matches": [
+          "Experience with stakeholder communication and innovation leadership suggests reliability and good communication skills."
+        ],
+        "mismatches": [
+          "Role emphasizes proficiency in German, but candidate is conversational at B2 level."
+        ],
+        "notes": "Candidate likely possesses strong communication skills but may not fully meet the language proficiency required."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [
+          "Flexible work arrangement aligns with unspecified work type."
+        ],
+        "mismatches": [],
+        "notes": "Work type details in job are not specified, allowing for some assumed alignment with candidate's flexible consultancy experience."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary information is provided, making it difficult to assess alignment."
+      }
+    ],
+    "top_matches": [
+      "Candidate is based in Berlin, matching the job location perfectly.",
+      "Strong communication and leadership skills align with soft skill requirements.",
+      "Flexible work experience fits with unspecified work type."
+    ],
+    "top_gaps": [
+      "No relevant experience aligning with job's unspecified but likely non-technical tasks.",
+      "Potential German language proficiency gap as specified by the job.",
+      "Technical expertise is not utilized in this job role."
+    ],
+    "recommendation": "While the candidate is highly skilled, the potential mismatch in role requirements and technical utilization makes this job less ideal. If the candidate is open to diverse opportunities and improving their German proficiency, this role may supplement their career temporarily. Alternatively, focusing on tech-centric roles may better leverage their expertise.",
+    "apply_recommended": false
+  },
+  {
+    "job": {
+      "id": "indeed:97533925eb8e041a",
+      "title": "Betreuungsassistent / in",
+      "company": "Pflegeteam CuraViva GmbH",
+      "location": "12347 Berlin",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "Ihr Aufgabenbereich\n\nIhre Freude am Umgang mit älteren Menschen ist eine sehr gute Voraussetzung, um das Lebensumfeld unserer Bewohner mit zusätzlichem Betreuungsbedarf entsprechend mitzugestalten. Dabei ist Ihre Kreativit��t sowohl in der Biografie-bezogenen Einzelbegleitung als auch in Gruppenangeboten gefragt. Motiviert und flexibel gehen Sie zusammen mit dem Betreuungsteam in die Zukunft eines erfolgreich wachsenden Pflege-Unternehmens. Wachsen Sie mit!\n\nIhr Profil\n\nAusbildung bzw. Weiterbildung als Betreuungsassistent (m/w) gemäß § 43b (ehemals § 87b) SGB XI mit gültigem Zertifikat\nErste Erfahrung in der Arbeit als Betreuungsassistent (m/w)\nErfahrung in der Arbeit mit demenziell erkrankten Bewohner/-innen\nOffenes, positives Auftreten gegenüber Bewohnern, Angehörigen und Dienstleistern\nFähigkeit, Ihren Arbeitstag und Ihre Tätigkeiten zu strukturieren, zu organisieren und gegebenenfalls Konflikte zu lösen\nHohe soziale Kompetenz und Einfühlungsvermögen\nGute schriftliche Ausdrucksform\n\nWir bieten\n\nEinen modern gestalteten Arbeitsplatz in einer schönen, freundlichen und offenen Arbeitsumgebung, ausgestattet mit allen notwendigen Arbeitsmitteln\nAusführliche Einarbeitung in die Einrichtungsabläufe\nGestaltungsfreiräume für die Umsetzung eigener Ideen\nMöglichkeit zur Teilnahme an internen und externen Fort- und Weiterbildungen\nFreundliches, engagiertes Team\n\nWenn Sie sich angesprochen fühlen, bewerben Sie sich am besten per Email an (info@curaviva.de) oder sollten Sie dennoch eine schriftliche Bewerbung bevorzugen, richten Sie diese bitte an:\n\nPflegeteam CuraViva GmbH\n\nFriedrichsbrunner Str, 9\n\n12347 Berlin",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "https://de.indeed.com/viewjob?jk=97533925eb8e041a",
+      "source": "indeed",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 26.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 0.0,
+        "weight": 0.35,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "The role of Betreuungsassistent does not require a tech stack.",
+          "Candidate's experience in AI, machine learning, and data science is not applicable."
+        ],
+        "notes": "Technical skills in AI and ML are not relevant to the Betreuungsassistent role."
+      },
+      {
+        "name": "experience",
+        "score": 0.2,
+        "weight": 0.25,
+        "weighted_score": 0.05,
+        "matches": [],
+        "mismatches": [
+          "No direct experience in caregiver or Betreuungsassistent roles.",
+          "No experience working with elderly or dementia patients is indicated."
+        ],
+        "notes": "The candidate's professional experience does not directly relate to Betreuungsassistent requirements."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is based in Berlin, matching the job location."
+        ],
+        "mismatches": [],
+        "notes": "The candidate's location aligns perfectly with the job location."
+      },
+      {
+        "name": "education",
+        "score": 0.2,
+        "weight": 0.1,
+        "weighted_score": 0.020000000000000004,
+        "matches": [],
+        "mismatches": [
+          "No certification as Betreuungsassistent or relevant healthcare training was found.",
+          "Education in Mathematics & Philosophy is not relevant to the care assistant role."
+        ],
+        "notes": "Educational background does not align with the Betreuungsassistent role requirements."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.4,
+        "weight": 0.1,
+        "weighted_score": 0.04000000000000001,
+        "matches": [
+          "Cross-functional collaboration skills.",
+          "Stakeholder communication."
+        ],
+        "mismatches": [
+          "Lack of specific mention of empathy or social competence.",
+          "No explicit experience in organizing or conducting structured activities for the elderly."
+        ],
+        "notes": "Some general soft skills are present, but key social competencies for elder care are not addressed."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Job posting does not specify remote, hybrid, or on-site nature."
+        ],
+        "notes": "Unclear preference for work type due to lack of detail in the job posting."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Salary information is not provided in the job posting."
+        ],
+        "notes": "Salary expectations cannot be evaluated due to lack of information."
+      }
+    ],
+    "top_matches": [
+      "Candidate is located in Berlin, same as job location.",
+      "Possesses cross-functional collaboration skills.",
+      "Demonstrates strong stakeholder communication skills."
+    ],
+    "top_gaps": [
+      "No relevant experience in caregiving or as a Betreuungsassistent.",
+      "Lacks required certification or training for Betreuungsassistent role.",
+      "Technical skills do not align with the needs of the position."
+    ],
+    "recommendation": "While the candidate has strong technical and communication skills, their lack of relevant experience and necessary certification in caregiving makes this position unsuitable. Consider positions where data science and AI expertise can be applied, or pursue certification in healthcare if interested in such roles.",
+    "apply_recommended": false
+  },
+  {
+    "job": {
+      "id": "indeed:74fc8af58b432f42",
+      "title": "VERKÄUFERIN",
+      "company": "AsenseCouture",
+      "location": "Berlin-Neukölln",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "sende deine Bewerbungsunterlagen inkl. Gehaltsvorstellungen, Lebenslauf, Zeugnissen und möglichem Eintrittsdatum per E-Mail unter info@asensecouture.com\nD E I N E A U F G A B E N\n\nDu berätst unsere Kunden und Kundinnen zielgerichtet im Bereich hochwertiger Braut-,Abend- und Herrenmode.\nDu kassierst die Ware und unterstützt das Team bei der Betreuung von Reservierungen und Aufträgen\nDu unterstützt uns grundsätzlich auch samstags\nDu gehst mit offenen Augen durch den Store und stellst sicher, dass ansprechende Ordnung herrscht (inkl. gelegentlichem Staubsaugen und Küche aufräumen)\n\nD E I N P R O F I L\n\nEs liegt dir, Kunden zu beraten (Erfahrung im gehobenen Textilhandel sind von Vorteil)\nDeine Stärken liegen sowohl in der Beratung als auch im Kauf-Abschluss\nDu bist zuverlässig\nDu gehst offen und charmant auf Menschen zu\nDir ist bewusst, dass du aufgrund deines direkten Kundenkontakts unser gesamtes Team repräsentierst und hast Freude daran, Kundinnen und Kunden von AsenseCouture zu überzeugen.\nDir liegen Teamgeist und Eigeninitiative am Herzen\nDu verfügst über sehr gute Deutsch- und Türkischkenntnisse und idealerweise fortgeschrittene Kenntnisse in einer Fremdsprache",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "https://de.indeed.com/viewjob?jk=74fc8af58b432f42",
+      "source": "indeed",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 26.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 0.0,
+        "weight": 0.35,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Job requires no technical skills, whereas the candidate is focused on data science and machine learning.",
+          "Python, PyTorch, TensorFlow, Scikit-learn not relevant for a sales position."
+        ],
+        "notes": "The candidate's technical skills are not applicable to the sales-oriented role."
+      },
+      {
+        "name": "experience",
+        "score": 0.0,
+        "weight": 0.25,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Candidate's experience is in data science and machine learning, not in retail or sales.",
+          "No direct customer service or sales experience noted."
+        ],
+        "notes": "The candidate's professional experience does not match the retail sales requirements."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is located in Berlin, Germany.",
+          "Job is located in Berlin-Neukölln, which is compatible."
+        ],
+        "mismatches": [],
+        "notes": "The candidate is geographically well-matched for the job's location."
+      },
+      {
+        "name": "education",
+        "score": 0.5,
+        "weight": 0.1,
+        "weighted_score": 0.05,
+        "matches": [
+          "Bachelor's degree in Mathematics & Philosophy shows a solid educational background."
+        ],
+        "mismatches": [
+          "Education in Mathematics & Philosophy is not directly relevant to a sales position in the fashion industry."
+        ],
+        "notes": "The candidate has a strong educational background; however, it is not directly relevant to the job."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.6,
+        "weight": 0.1,
+        "weighted_score": 0.06,
+        "matches": [
+          "Cross-functional collaboration and stakeholder communication likely contribute to sales capabilities.",
+          "Innovation leadership may translate into proactive customer engagements."
+        ],
+        "mismatches": [
+          "Specific experience in retail customer service and closing sales is not demonstrated.",
+          "The role requires very good Deutsch- and Türkischkenntnisse, which are not confirmed."
+        ],
+        "notes": "Generic soft skills are evident, but specific retail sales skills are not proven."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Work type preference is not specified in either the job post or candidate's CV."
+        ],
+        "notes": "Neither the candidate's CV nor the job post specify work type preference."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Job post requests salary expectations from the candidate but provides no salary information."
+        ],
+        "notes": "No salary information provided in the job posting or candidate CV."
+      }
+    ],
+    "top_matches": [
+      "Candidate is located in Berlin, matching the job location.",
+      "Bachelor's degree shows a solid educational background.",
+      "Strong soft skills in cross-functional collaboration and communication."
+    ],
+    "top_gaps": [
+      "No relevant sales or retail experience noted.",
+      "Technical skillset is unrelated to the job requirements.",
+      "Lack of language proficiency in German and Turkish not confirmed."
+    ],
+    "recommendation": "The candidate's technical background and experience do not align with the retail sales position, despite a suitable geographic location. The candidate could explore positions that leverage their data science expertise and consider improving language proficiency if interested in sales roles.",
+    "apply_recommended": false
+  },
+  {
+    "job": {
+      "id": "indeed:78edbdc1e8d60d40",
+      "title": "F121 Verkäufer (m/w/x)",
+      "company": "Siemes Schuhcenter GmbH & Co. KG",
+      "location": "Berlin",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "Wir sind ein deutsches Filialunternehmen der Schuhbranche mit über 180 Verkaufsstellen im ganzen Bundesgebiet und ersten Verkaufsstellen in Europa. Online sind wir unter www.schuhcenter.de zu finden.\n\nIhre Aufgaben\nSicherstellung Warenpräsenz im Verkaufsraum und Lager\nWarenannahme inkl. –Kontrolle\nKundenberatung mit Mehrfachbedienung\nKassentätigkeiten\nIhr Profil\nSpaß am Umgang mit Kunden und freuen sich auf abwechslungsreiche Aufgaben\nErste Erfahrungen im Verkauf\nKommunikationsstärke und Teamfähigkeit\nAusgeprägte Serviceorientierung und Flexibilität\nLeidenschaft für Mode und Trends\nMotivation und Zielstrebigkeit\nWir bieten\nSie lernen in einem kollegialem Team Schuhe und Accessoires entsprechend zu präsentieren\nAngenehme und offene Arbeitsatmosphäre in einem hochmotivierten und sympathischen Team\nPersonalrabatte auf alle unsere Marken\nattraktive Zusatzleistungen\nPerspektive zur persönlichen Entwicklung\nKontakt\n\nHaben wir Ihr Interesse geweckt?\n\nDann freuen wir uns auf Ihre Bewerbung über den \"Online bewerben\"-Link.",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "https://de.indeed.com/viewjob?jk=78edbdc1e8d60d40",
+      "source": "indeed",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 22.5,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 0.0,
+        "weight": 0.35,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "The job is for a retail sales position which does not require technical skills.",
+          "Candidate's expertise in AI, ML, and programming is not relevant to a retail sales role."
+        ],
+        "notes": "Candidate's technical skills are not applicable to this retail sales position."
+      },
+      {
+        "name": "experience",
+        "score": 0.1,
+        "weight": 0.25,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Candidate has extensive experience in AI and ML, which is unrelated to sales.",
+          "No retail sales experience detailed on the CV."
+        ],
+        "notes": "Candidate lacks direct sales experience required for this role."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "The candidate is based in Berlin, matching the job location."
+        ],
+        "mismatches": [],
+        "notes": "The candidate is located in Berlin, which matches the job location perfectly."
+      },
+      {
+        "name": "education",
+        "score": 0.0,
+        "weight": 0.1,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Education in Mathematics, Philosophy, and AI is not relevant to retail sales."
+        ],
+        "notes": "The candidate's educational background does not align with retail sales requirements."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.5,
+        "weight": 0.1,
+        "weighted_score": 0.05,
+        "matches": [
+          "Demonstrated cross-functional collaboration.",
+          "Proven stakeholder communication skills."
+        ],
+        "mismatches": [
+          "No specific evidence of direct customer service or sales skills.",
+          "Retail-specific soft skills such as service orientation and sales techniques are not mentioned."
+        ],
+        "notes": "While communication skills are strong, the specific sales and customer service skills are not clearly demonstrated."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "The job posting does not specify work type, and the candidate's preference is not noted."
+        ],
+        "notes": "There is no clear indication of any conflict regarding the work type preference."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "No salary information is provided in the job posting or in candidate expectations."
+        ],
+        "notes": "Salary expectations cannot be compared due to lack of data."
+      }
+    ],
+    "top_matches": [
+      "Candidate's location in Berlin matches the job location.",
+      "Strong communication and collaboration skills are beneficial even in a sales role.",
+      "Cross-functional teamwork experience may suggest adaptability to new environments."
+    ],
+    "top_gaps": [
+      "Lack of relevant sales or retail experience.",
+      "Technical skills and education are not aligned with the job requirements.",
+      "No retail-specific soft skills explicitly mentioned."
+    ],
+    "recommendation": "The candidate is not a strong fit for this retail sales position given the lack of relevant experience and applicable skills. It would be more suitable to apply for roles that leverage their AI, ML, and technical expertise. Consider exploring data-driven roles where cross-functional communication and tech skills are required.",
+    "apply_recommended": false
+  },
+  {
+    "job": {
+      "id": "indeed:5d6382c4720c135e",
+      "title": "WG-Betreuung",
+      "company": "Sozialdiakonisches Werk ZOAR gemeinnützige GmbH",
+      "location": "10437 Berlin",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "Kommen Sie zu uns als WohngruppenbetreuerIn (d, w, m) in unsere Wohngruppen für Menschen mit Lernschwierigkeiten oder Morbus Huntington\nIhre Perspektiven\nSie arbeiten in multiprofessionellen Teams und werden fachlich begleitet.\nSie haben ein Mitspracherecht bei der Dienstplangestaltung in flexiblen Arbeitszeitmodellen.\nSie arbeiten in einem Zwei- Schicht-System mit Früh- und Spätschichten, auch am Wochenende und an Feiertagen.\nSie finden einen attraktiven und sicheren Arbeitsplatz in angenehmer Arbeitsatmosphäre vor.\nEin Mentor begleitet Sie bei der Einarbeitung.\nSie nehmen an regelmäßigen Teamgesprächen, Teamtagen sowie Supervisionen teil.\nSie haben die Möglichkeit sich fort- und weiterzubilden.\nSie finden im Haus ZOAR viel Raum für Ihre kreativen Ideen.\nIhre Berufserfahrung wächst stetig\nNach einer Befristung haben Sie die Chance auf eine Entfristung.\nSie werden vergütet nach Tarif AVR DWBO E7 mit Zuschlägen und Jahressonderzahlung\nSie erhalten eine betriebliche Altersvorsorge und bekommen ggf. Kinderzuschläge und/oder andere Beihilfen.\nIhr Profil\nSie haben eine abgeschlossene 3-jährige Berufsausbildung mit staatlicher Anerkennung als: Heilerziehungspfleger/in, Heilpädagoge/in, Erzieher/in, Kranken-, Alten- oder Gesundheitspfleger/in\nSie verfügen über Organisations- und Teamfähigkeit, Flexibilität, Kreativität.\nSie sind empathisch und denken inklusiv.\nSie bringen ein hohes Maß an Selbständigkeit, Zuverlässigkeit und Eigenverantwortung mit.\nSie sind bereit sich fort- und weiterzubilden.\nSie wollen das Haus ZOAR mitgestalten.\nSie sind bereit zur interdisziplinären Zusammenarbeit\nSie achten und teilen unsere christlichen Werte.\nIhre Aufgaben?\nSie unterstützen Bewohnerinnen und Bewohner in ihrem Alltag.\nSie entwickeln gemeinsam mit ihnen Teilhabemöglichkeiten.\nSie fördern individuelle Möglichkeiten.\nSie vertreten die Interessen der Bewohnerinnen und Bewohner.\nSie führen die notwendige Grund- und einfachste Behandlungspflege aus.\nSie erstellen die Förder- und Pflegeplanung gemeinsam mit den Bewohnerinnen und Bewohnern.\nSie führen die EDV-gestützte Dokumentation.\nSie wirken bei der Teamentwicklung aktiv mit.\nSie gestalten Feste und andere Freizeitangebote mit und begleiten Ausflüge und Bewohnerreisen.\nSie fungieren als kompetenter Ansprechpartner für Angehörige, gesetzliche Betreuer und Behörden.\nInteressiert?\n\nWenn Sie diese interessante und vielseitige Aufgabe – gerade auch als Berufsanfänger – reizt, freuen wir uns auf Ihre vollständige Bewerbung. Fragen beantwortet Ihnen gerne die Einrichtungsleiterin Frau Rita Wolbeck. Sie erreichen sie per Telefon unter: 030 44 36 55 20.\n\nBewerben Sie sich gerne per Mail bei Frau Wolbeck\n\nOder schicken Sie Ihre Bewerbungsunterlagen per Post an:\nFrau Rita Wolbeck\nSozialdiakonisches Werk ZOAR gGmbH\nCantianstraße 8\n10437 Berlin",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "https://de.indeed.com/viewjob?jk=5d6382c4720c135e",
+      "source": "indeed",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 21.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 0.0,
+        "weight": 0.35,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Role does not require technical skills like Python, ML, or AI systems.",
+          "No mention of computer vision or AI in job requirements.",
+          "Technical skills like Docker, Supabase are irrelevant here."
+        ],
+        "notes": "There is no alignment between the candidate's technical skills and the job requirements."
+      },
+      {
+        "name": "experience",
+        "score": 0.0,
+        "weight": 0.25,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Candidate has experience in AI and tech consulting, not care work or support roles.",
+          "No relevant experience in nursing, healthcare, or social work roles.",
+          "The job posting requires a vocational education in care, which the candidate lacks."
+        ],
+        "notes": "The candidate's experience is entirely in a different field, with no overlap."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is based in Berlin, the same city as the job location.",
+          "No relocation would be necessary."
+        ],
+        "mismatches": [],
+        "notes": "Location is a perfect match with the job requirements."
+      },
+      {
+        "name": "education",
+        "score": 0.0,
+        "weight": 0.1,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "The candidate does not have a relevant vocational degree like nursing or social work.",
+          "Educational background in Mathematics & Philosophy is not directly applicable.",
+          "Job requires a state-recognized qualification in care-related fields."
+        ],
+        "notes": "Educational qualifications do not meet the job's requirements for state-recognized care work qualifications."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.6,
+        "weight": 0.1,
+        "weighted_score": 0.06,
+        "matches": [
+          "Candidate demonstrates cross-functional collaboration and leadership.",
+          "Mentions stakeholder communication, which may translate to empathy and team skills.",
+          "Innovation leadership could contribute to creative problem-solving."
+        ],
+        "mismatches": [
+          "No specific mention of experience in direct care or empathy for vulnerable individuals.",
+          "Lack of demonstrated experience in inclusive or inter-disciplinary teamwork specific to care environments."
+        ],
+        "notes": "Candidate has strong soft skills but lacks specific experience in a care context."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "The work type is unspecified but likely on-site considering the nature of the role.",
+          "Candidate's preference for remote or tech-related work may not align."
+        ],
+        "notes": "The work type is unspecified, posing potential challenges given the candidate's tech-oriented background."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary information provided, making it difficult to assess expectations."
+      }
+    ],
+    "top_matches": [
+      "Candidate is based in Berlin, matching the job location.",
+      "Demonstrates strong cross-functional collaboration skills.",
+      "Excellent in stakeholder communication and leadership which may adapt to team roles."
+    ],
+    "top_gaps": [
+      "Lack of relevant vocational education in care-related fields.",
+      "No direct experience in nursing, healthcare, or social work roles.",
+      "Technical skills and career experience are unrelated to the job description."
+    ],
+    "recommendation": "The candidate should explore opportunities more aligned with their background in AI and data science. Consider roles that leverage the existing technical expertise and leadership capacity. For this job, pursuing additional qualifications or experience in caregiving could be beneficial if a field change is desired.",
+    "apply_recommended": false
+  },
+  {
+    "job": {
+      "id": "indeed:56f86d6378339dec",
+      "title": "Fachverkäufer - Zweiradhandel (m/w/d)",
+      "company": "Helmuts Fahrrad Center GmbH",
+      "location": "12277 Berlin-Mariendorf",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "Wir suchen für unsere Geschäfte in Berlin Mariendorf und Potsdam Mitarbeiter\n\nHFC Bikes ist Ihr Experte für hochwertige Fahrräder in Berlin Mariendorf und Potsdam. Wir sind stolz darauf, unseren Kunden nicht nur erstklassige Fahrräder, sondern auch exzellenten Service zu bieten. Um unser Team weiter zu stärken, suchen wir ab sofort oder nach Vereinbarung versierte und engagierte Mitarbeiter für unsere Werkstatt und den Verkauf. Wenn Sie eine Leidenschaft für Fahrräder haben und Teil eines dynamischen und freundlichen Teams werden möchten, freuen wir uns auf Ihre Bewerbung.\nWarum HFC Bikes?Kollegiales miteinander\nUnterstützung durch Kollegen\nrespektvoller Umgang miteinander\nGeschäftsführung immer ansprechbar\nFortbildung\nArbeitszeiten\nMitarbeiterevent\nFreie Getränke\nGehaltszahlung\nBetriebliche Altervorsorge\nFachverkäufer - Zweiradhandel (m/w/d)\nAufgabengebiet\nNeuräderberatung\nVerkauf von Neurädern, Teilen und Zubehör\nReparaturannahme\n\nUnsere Anforderungen:\nBerufserfahrung\nZuverlässigkeit\nKundenfreundlichkeit\nTeamfähigkeit\n\nWir bieten:\nAbwechslungsreiche Tätigkeit in einem dynamischen Team\nSpannende Möglichkeit, Kenntnisse im Bereich Sportartikel zu erweitern\nAttraktive Aktionen für Mitarbeitende\nJetzt bei uns bewerben!\n\nUnser freundliches Team bei HFC Bikes freut sich darauf, Sie kennenzulernen! In unserem modernen und gut organisierten Fahrradläden in Berlin Mariendorf und Potsdam arbeiten engagierte Mitarbeiter mit Leidenschaft für Fahrräder und einem hohen Maß an Kompetenz. Unsere saubere und einladende Umgebung sowie unser breites Sortiment an Fahrrädern und Zubehör schaffen eine professionelle und angenehme Atmosphäre.\n\nFühlen Sie sich angesprochen? Dann zögern Sie nicht und bewerben Sie sich bei uns!\n\nHFC Bikes Berlin Mariendorf\nGroßbeerenstraße 169 – 171\n12277 Berlin-Mariendorf",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "https://de.indeed.com/viewjob?jk=56f86d6378339dec",
+      "source": "indeed",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 21.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 0.0,
+        "weight": 0.35,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "No relevant tech stack for bicycle sales or repair",
+          "Experience is in AI systems rather than retail or technical sales"
+        ],
+        "notes": "The candidate's tech stack expertise in AI and machine learning does not align with the retail and bicycle repair skills needed for this role."
+      },
+      {
+        "name": "experience",
+        "score": 0.0,
+        "weight": 0.25,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Experience is primarily in AI and data science, not retail or customer-facing roles",
+          "No direct experience in bicycle sales or repair"
+        ],
+        "notes": "The candidate's experience is in technology and engineering fields, not in the required retail or sales domain."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate resides in Berlin, Germany",
+          "Proximity to job location in Berlin-Mariendorf"
+        ],
+        "mismatches": [],
+        "notes": "The candidate is ideally located in Berlin, matching the job's location requirements."
+      },
+      {
+        "name": "education",
+        "score": 0.0,
+        "weight": 0.1,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Educational background in mathematics and AI is not relevant to the bicycle retail position"
+        ],
+        "notes": "The candidate's education is specialized in fields unrelated to the role of a bicycle salesperson."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.6,
+        "weight": 0.1,
+        "weighted_score": 0.06,
+        "matches": [
+          "Cross-functional collaboration",
+          "Stakeholder communication"
+        ],
+        "mismatches": [
+          "No direct mention of customer service or sales skills"
+        ],
+        "notes": "The candidate has good general soft skills, but lacks specific retail or point-of-sale customer service experience."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Work type not specified in the job, making it difficult to assess alignment"
+        ],
+        "notes": "Work type preferences are unclear as the job does not specify them; assumed alignment given location."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary expectations are provided by either the candidate or the employer."
+      }
+    ],
+    "top_matches": [
+      "Candidate is located in Berlin, Germany.",
+      "Strong cross-functional collaboration and communication skills.",
+      "Technical leadership experience in guiding teams."
+    ],
+    "top_gaps": [
+      "No relevant tech stack or retail experience for the bicycle industry.",
+      "Lack of customer-facing or direct sales experience.",
+      "Educational background does not align with retail sales requirements."
+    ],
+    "recommendation": "The candidate should focus on opportunities that leverage their AI and technical expertise in technology sectors rather than retail. Pursuing roles in AI consultation or engineering leadership would better suit their background. Additionally, building sales or customer-facing skills could diversify potential job fits in technology sales or solutions roles.",
+    "apply_recommended": false
+  },
+  {
+    "job": {
+      "id": "indeed:8e55d7f8c7c968d9",
+      "title": "Verkäufer/in",
+      "company": "fahrradstation GmbH",
+      "location": "Berlin",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "Verkäufer/in\n\nSie sind kommunikationsstark und abschlusssicher. Wenn Sie eine Stelle mit hohem Entwicklungspotential, Eigenverantwortung und der Möglichkeit, eigene Ideen zu verwirklichen, suchen, dann sind Sie gut geeignet für unser Team. Vielseitige Arbeitsaufgaben und ein junges Team erwarten Sie.\n\nIhre Tätigkeit:\n\n- Kompetente Kundenberatung rund um das Thema Fahrrad\n- Verkauf von Fahrrädern, Ersatzteilen und Zubehör\n- Vermietung von Fahrrädern und Zubehör\n- Erfassung der Warenbewegung mit einer branchentypischen Warenwirtschaft\n- Einbindung Ihrer Mitarbeiter in die Planung und Umsetzung von Verkaufsaktionen\n- Herstellung und Kontrolle der Warenpräsentation\n\nIhr Profil:\n\n- abgeschlossene kaufmännische Ausbildung\n- mindestens zwei Jahre Erfahrung im Verkauf von anspruchsvollen Fahrradprodukten\n- vertraut mit neuestem Stand der Fahrradtechnik\n- Sie arbeiten sorgfältig, schnell und Verantwortung fordert Sie heraus\n- kommunikative und selbstbewusste Verkäuferpersönlichkeit\n- engagiert und aktiv führen Sie Ihre Mitarbeiter und begeistern Ihre Kunden\n- Serviceorientierung und freundliche Umgangsformen sind selbstverständlich\n\nBezahlung, betriebliche Leistungen:\n\n- Leistungsgerechte Bezahlung\n- Sinnvolle, abwechselungsreiche Tätigkeit in einer spannenden Branche\n- Persönliche Entwicklungsmöglichkeiten in einem expandierenden Unternehmen\n- Regelmäßige Schulungen und Fortbildungen\n- Betriebliche Altersvorsorge (Abhängig von der Dauer der Betriebszugehörigkeit)\n- U.v.a.m.\n\nIhre Bewerbung senden Sie bitte ausschließlich per Mail an: bewerbung@fahrradstation.de\n\nWir freuen uns darauf Sie kennen zu lernen.",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "https://de.indeed.com/viewjob?jk=8e55d7f8c7c968d9",
+      "source": "indeed",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 20.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 0.0,
+        "weight": 0.35,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Job requires knowledge of bicycle technology, not software or data science.",
+          "No mention of technical skills related to bicycle sales or inventory systems."
+        ],
+        "notes": "The tech stack is unrelated as it focuses on software development rather than bicycle technology."
+      },
+      {
+        "name": "experience",
+        "score": 0.0,
+        "weight": 0.25,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Candidate has experience in AI and data science, not sales.",
+          "The role requires at least two years of experience in selling bicycle products."
+        ],
+        "notes": "The candidate's experience in data science does not align with required sales experience."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is based in Berlin.",
+          "Job location is also Berlin."
+        ],
+        "mismatches": [],
+        "notes": "Location is a perfect match since both the candidate and the job are based in Berlin."
+      },
+      {
+        "name": "education",
+        "score": 0.0,
+        "weight": 0.1,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Candidate possesses a degree in Mathematics and Philosophy, not a commercial or business degree.",
+          "The role specifies a need for a commercial education background."
+        ],
+        "notes": "The educational background does not align with the job's requirement for commercial education."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.5,
+        "weight": 0.1,
+        "weighted_score": 0.05,
+        "matches": [
+          "Strong communication skills as evidenced by collaboration and stakeholder communication.",
+          "Leadership skills demonstrated through leading ML projects."
+        ],
+        "mismatches": [
+          "Sales-specific communication skills were not demonstrated.",
+          "Service orientation and direct customer engagement are not highlighted in the CV."
+        ],
+        "notes": "Soft skills are partially aligned; however, they lack a sales-specific focus."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "The CV does not specify a preference for on-site sales work, which is implied for this role."
+        ],
+        "notes": "Work type preference is not specified but assumed to be on-site, which might not align with prior remote tech roles."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "No salary expectations are specified on the CV."
+        ],
+        "notes": "Salary expectations are not mentioned in the candidate's CV or the job posting."
+      }
+    ],
+    "top_matches": [
+      "Location: Both the candidate and the job are based in Berlin.",
+      "Strong communication skills that can translate into sales roles.",
+      "Leadership skills shown in managing projects."
+    ],
+    "top_gaps": [
+      "Lack of sales experience, particularly in bicycle products.",
+      "Educational background not aligned with a commercial degree requirement.",
+      "Technical skills are not aligned with the job's focus on bicycle technology."
+    ],
+    "recommendation": "The candidate's background in data science and AI does not align well with the sales-focused requirements of this role. It might be more productive to target roles related to data or technology that leverage their technical and project leadership skills. Considering a sales training program could help pivot towards business roles if desired.",
+    "apply_recommended": false
+  },
+  {
+    "job": {
+      "id": "indeed:522dbe50599b4e5a",
+      "title": "HauswirtschafterIn PflegehelferIn",
+      "company": "WEG DER MITTE",
+      "location": "14163 Berlin",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "Sie verfügen über eine abgeschlossene Ausbildung, Weiterbildung oder haben Erfahrungen im Haushalts- und Pflegebereich.\nDer Kontakt zu älteren Menschen und das Engagement für andere sind Ihnen wichtig.\nSie haben Interesse an gesundheitsbewusster Lebensführung und Ernährung, können selbständig arbeiten, sind flexibel und besitzen Toleranz und Einfühlungsvermögen.\nSie arbeiten gerne im Team und sind gewöhnt Lösungen zu finden\n\nBitte richten Sie Ihre Bewerbung an:\n\nWeg der Mitte Soziale Dienste\nAhornstr. 18\n14163 Berlin\n\noder per E-Mail an: fam@wegdermitte.de\n\nDer Bewerbung ist ein Lebenslauf mit Foto beizulegen.",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "https://de.indeed.com/viewjob?jk=522dbe50599b4e5a",
+      "source": "indeed",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 20.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 0.0,
+        "weight": 0.35,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Role requires skills in household and nursing care, unrelated to the candidate's tech-oriented skills."
+        ],
+        "notes": "No alignment as the role is focused on non-technical skills."
+      },
+      {
+        "name": "experience",
+        "score": 0.0,
+        "weight": 0.25,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Candidate's experience in data science and machine learning is not relevant to the household and care sector."
+        ],
+        "notes": "Experience does not align with the household and care-focused job requirements."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is based in Berlin, Germany, the same location as the job posting."
+        ],
+        "mismatches": [],
+        "notes": "Perfect location match as both candidate and role are based in Berlin."
+      },
+      {
+        "name": "education",
+        "score": 0.0,
+        "weight": 0.1,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "Candidate's education in Mathematics, Philosophy, and Deep Learning is not applicable to the required field of household and care."
+        ],
+        "notes": "Educational background is not relevant to the domain of the job posting."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.5,
+        "weight": 0.1,
+        "weighted_score": 0.05,
+        "matches": [
+          "Cross-functional collaboration",
+          "Stakeholder communication",
+          "Innovation leadership"
+        ],
+        "mismatches": [
+          "Role emphasizes empathy and tolerance, which are not explicitly detailed in the CV."
+        ],
+        "notes": "Some overlap in soft skills, but critical interpersonal skills for care are not evidenced."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "Work type is unspecified, and candidate's preference for remote/tech work may not align."
+        ],
+        "notes": "Unclear work type requirement prevents a thorough assessment."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [],
+        "notes": "No salary data available to compare compensation expectations."
+      }
+    ],
+    "top_matches": [
+      "Candidate and role are both based in Berlin.",
+      "Cross-functional collaboration aligns with team-work requirement.",
+      "Fluency in multiple languages which may aid cultural fit in diverse environments."
+    ],
+    "top_gaps": [
+      "Core skills and experience in tech do not match household and care sector requirements.",
+      "Educational background in unrelated fields.",
+      "Emphasis on tech-related work experience over required soft skills for care."
+    ],
+    "recommendation": "Given the significant skill and experience mismatch, this role is not well-aligned with the candidate's background. Exploring roles related to data science or machine learning would be more strategic. If interested in transitioning to the care sector, gaining relevant certifications or experience would be essential.",
+    "apply_recommended": false
+  },
+  {
+    "job": {
+      "id": "indeed:7bd725bed5afd9e1",
+      "title": "Verkäufer",
+      "company": "GFI Gesellschaft für IT-Systeme mbH",
+      "location": "10711 Berlin",
+      "work_type": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": null,
+      "salary_annual_min": null,
+      "salary_annual_max": null,
+      "description": "Für die Anbahnung neuer Geschäftsbeziehungen stellen wir laufend Verkaufspersonal ein. Bitte bewerben Sie sich nur papierlos und nur, wenn Sie wenigstens die Mindestkriterien erfüllen.\n\nKurzbewerbung hier Bitte senden Sie nur Unterlagen in einer pdf Datei.\n\nBitte bewerben Sie sich nur kurz und knapp und nur papierlos. Am besten mit Ihrer Homepage. Papierschriftliche Bewerbungen können wir nicht berücksichtigen und sie können auch nicht zurückgeschickt werden.\n\nMindestvoraussetzungen\nExtrovertierter Charakter, kontaktfreudig\nGute Allgemeinbildung\nKorrespondenzsicherheit\nKaufmännische Ausbildung\nGute Abstraktionsfähigkeit\nGute Kenntnisse im Rechnungswesen\nwenigstens 3 Jahre Erfahrung im Verkaufsinnen- oder -Außendienst\nEinsatzort\n\nin allen Bundesländern, sowohl für RediPro selbst, als auch für unsere Partnerfirmen - bundesweit.\n\nBitte bewerben Sie sich nur kurz und knapp und nur papierlos. Am besten mit Ihrer Homepage.\n\nPapierschriftliche Bewerbungen können wir nicht berücksichtigen und sie können auch nicht zurückgeschickt werden.",
+      "requirements": [],
+      "tech_stack": [],
+      "posted_date": null,
+      "num_applicants": null,
+      "url": "https://de.indeed.com/viewjob?jk=7bd725bed5afd9e1",
+      "source": "indeed",
+      "experience_years_min": null,
+      "experience_years_max": null
+    },
+    "overall_score": 18.0,
+    "categories": [
+      {
+        "name": "tech_stack",
+        "score": 0.0,
+        "weight": 0.35,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "The job does not require any specific technical skills, whereas the candidate has an advanced set of technical skills, which are irrelevant for this role."
+        ],
+        "notes": "There is no alignment in technical skills as the job does not require any specific tech stack."
+      },
+      {
+        "name": "experience",
+        "score": 0.0,
+        "weight": 0.25,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "The candidate's experience is in data science and AI, not in sales.",
+          "The role requires at least 3 years of sales experience, which the candidate does not have."
+        ],
+        "notes": "The candidate's experience is entirely unrelated to the sales-focused requirements of the job."
+      },
+      {
+        "name": "location",
+        "score": 1.0,
+        "weight": 0.1,
+        "weighted_score": 0.1,
+        "matches": [
+          "Candidate is located in Berlin, Germany, which aligns with the job location in Berlin."
+        ],
+        "mismatches": [],
+        "notes": "The candidate is currently based in Berlin, matching the job's location requirement."
+      },
+      {
+        "name": "education",
+        "score": 0.0,
+        "weight": 0.1,
+        "weighted_score": 0.0,
+        "matches": [],
+        "mismatches": [
+          "The candidate has a background in mathematics and philosophy but lacks the kaufmännische Ausbildung (commercial education) required by the role."
+        ],
+        "notes": "The educational background does not match the commercial education required by the job."
+      },
+      {
+        "name": "soft_skills",
+        "score": 0.3,
+        "weight": 0.1,
+        "weighted_score": 0.03,
+        "matches": [
+          "Described as having 'innovation leadership' and 'stakeholder communication', which could indicate some level of extroversion and communication skills."
+        ],
+        "mismatches": [
+          "The job requires a highly extroverted and contact-friendly personality, which is not explicitly highlighted in the candidate's CV."
+        ],
+        "notes": "While some soft skills overlap might be inferred, the CV does not emphasize the extroverted and sales-specific skills needed."
+      },
+      {
+        "name": "work_type",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "The role's work type is unspecified, making it difficult to assess alignment with candidate's work type preferences."
+        ],
+        "notes": "The work type is not specified in the job posting, so alignment cannot be fully determined."
+      },
+      {
+        "name": "salary",
+        "score": 0.5,
+        "weight": 0.05,
+        "weighted_score": 0.025,
+        "matches": [],
+        "mismatches": [
+          "The job listing does not include a salary, preventing comparison."
+        ],
+        "notes": "Salary expectations cannot be evaluated due to lack of information in the job posting."
+      }
+    ],
+    "top_matches": [
+      "Candidate is located in Berlin, aligning with job location.",
+      "Demonstrates strong stakeholder communication skills.",
+      "Has a presence and portfolio online, as requested in the application process."
+    ],
+    "top_gaps": [
+      "No relevant sales or commercial experience.",
+      "Lacks the required kaufmännische Ausbildung (commercial education).",
+      "Tech skills are irrelevant to the sales-focused role."
+    ],
+    "recommendation": "This position is not suitable given the candidate's lack of sales experience and commercial education. The candidate should focus on roles that require strong technical expertise in AI and machine learning, where their skills and experience can be better utilized.",
+    "apply_recommended": false
+  }
+]

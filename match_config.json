@@ -1,0 +1,15 @@
+{
+  "weights": {
+    "tech_stack": 0.35,
+    "experience": 0.25,
+    "location": 0.10,
+    "education": 0.10,
+    "soft_skills": 0.10,
+    "work_type": 0.05,
+    "salary": 0.05
+  },
+  "minimum_score_to_apply": 65.0,
+  "strict_experience_match": false,
+  "experience_adjacent_years": 1,
+  "include_no_salary_in_scoring": true
+}

@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jobhunter"
+version = "0.1.0"
+description = "Open-source job search and CV matching library powered by Apify and LLMs"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["jobs", "job-search", "cv-matching", "career", "apify", "llm"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "pydantic>=2.0",
+    "apify-client>=1.6",
+    "anthropic>=0.40",
+    "openai>=1.0",
+    "google-generativeai>=0.8",
+    "pdfplumber>=0.11",
+    "click>=8.0",
+    "python-dateutil>=2.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-mock>=3.14", "ruff>=0.4"]
+
+[project.scripts]
+jobhunter = "jobhunter.cli.main:cli"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/jobhunter"
+Issues = "https://github.com/yourusername/jobhunter/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["jobhunter*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
