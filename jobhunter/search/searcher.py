@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import Any
 
@@ -327,17 +328,22 @@ class JobSearcher:
         all_jobs: list[JobPost] = []
         seen_urls: set[str] = set()
 
-        for source in resolved:
-            try:
-                jobs = self._search_source(source, params, max_results_per_source)
-                for job in jobs:
-                    if job.url and job.url in seen_urls:
-                        continue
-                    if job.url:
-                        seen_urls.add(job.url)
-                    all_jobs.append(job)
-            except Exception as exc:
-                print(f"[jobhunter] Warning: {source.value} search failed — {exc}")
+        with ThreadPoolExecutor(max_workers=len(resolved)) as pool:
+            futures = {
+                pool.submit(self._search_source, source, params, max_results_per_source): source
+                for source in resolved
+            }
+            for future in as_completed(futures):
+                source = futures[future]
+                try:
+                    for job in future.result():
+                        if job.url and job.url in seen_urls:
+                            continue
+                        if job.url:
+                            seen_urls.add(job.url)
+                        all_jobs.append(job)
+                except Exception as exc:
+                    print(f"[jobhunter] Warning: {source.value} search failed — {exc}")
 
         return post_fetch_filter(all_jobs, params)
 
