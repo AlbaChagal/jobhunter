@@ -7,13 +7,13 @@ name = "jobhunter"
 version = "0.1.0"
 description = "Open-source job search and CV matching library powered by Apify and LLMs"
 readme = "README.md"
-license = { text = "MIT" }
+license = { text = "Apache-2.0" }
 requires-python = ">=3.10"
 keywords = ["jobs", "job-search", "cv-matching", "career", "apify", "llm"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
