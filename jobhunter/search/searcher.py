@@ -92,12 +92,36 @@ def _extract_experience_years(text: str) -> tuple[int | None, int | None]:
 
 
 def _make_id(source: JobSource, raw: dict[str, Any]) -> str:
-    # Use source-provided ID if present, else hash the URL
-    for key in ("id", "jobId", "job_id", "joburl", "jobUrl", "url"):
+    for key in ("job_id", "id", "jobId", "joburl", "jobUrl"):
         if raw.get(key):
             return f"{source.value}:{raw[key]}"
-    url = raw.get("url", raw.get("applyUrl", ""))
+    url = raw.get("apply_url") or raw.get("job_url") or raw.get("url") or raw.get("applyUrl", "")
     return f"{source.value}:{hashlib.md5(url.encode()).hexdigest()[:12]}"
+
+
+_SALARY_RANGE_RE = re.compile(
+    r"\$?([\d,]+)[Kk]?\s*[-–—to]+\s*\$?([\d,]+)[Kk]?"
+    r"(?:.*?/(yr|year|hr|hour|mo|month))?",
+    re.IGNORECASE,
+)
+
+def _parse_salary_range_string(raw: Any) -> tuple[float | None, float | None, SalaryPeriod | None]:
+    """Parse strings like '$80K–$120K/yr' or '$45–$55/hr' into (min, max, period)."""
+    if not raw:
+        return None, None, None
+    s = str(raw)
+    m = _SALARY_RANGE_RE.search(s)
+    if not m:
+        return None, None, None
+    lo = float(m.group(1).replace(",", ""))
+    hi = float(m.group(2).replace(",", ""))
+    # Detect K multiplier
+    if "k" in s.lower() and lo < 1000:
+        lo *= 1000
+        hi *= 1000
+    period_raw = m.group(3) or ""
+    period = _parse_salary_period(period_raw) if period_raw else SalaryPeriod.ANNUAL
+    return lo, hi, period
 
 
 def _parse_posted_date(raw: Any) -> datetime | None:
@@ -116,20 +140,36 @@ def _parse_posted_date(raw: Any) -> datetime | None:
 # Per-source normalisers
 # ---------------------------------------------------------------------------
 
-def _normalise_linkedin(raw: dict[str, Any]) -> JobPost:
-    title = raw.get("title") or raw.get("jobTitle", "")
-    company = raw.get("companyName") or raw.get("company", "")
-    location = raw.get("location", "")
-    description = raw.get("descriptionText") or raw.get("description", "")
-    url = raw.get("jobUrl") or raw.get("url", "")
-    posted_date = _parse_posted_date(raw.get("postedAt") or raw.get("publishedAt"))
-    num_applicants = raw.get("applicantsCount") or raw.get("numApplicants")
-    work_type_raw = raw.get("workType") or raw.get("workplaceType")
-    work_type = _parse_work_type(work_type_raw)
+_APPLICANT_NUM_RE = re.compile(r"(\d[\d,]*)")
 
-    salary_min = _parse_salary_value(raw.get("salaryMin") or raw.get("minSalary"))
-    salary_max = _parse_salary_value(raw.get("salaryMax") or raw.get("maxSalary"))
-    period = _parse_salary_period(raw.get("salaryPeriod") or raw.get("salaryCurrency"))
+
+def _parse_applicant_count(raw: Any) -> int | None:
+    """Parse strings like 'Over 200 applicants' or '47 applicants' to int."""
+    if raw is None:
+        return None
+    if isinstance(raw, int):
+        return raw
+    m = _APPLICANT_NUM_RE.search(str(raw))
+    return int(m.group(1).replace(",", "")) if m else None
+
+
+def _normalise_linkedin(raw: dict[str, Any]) -> JobPost:
+    # worldunboxer/rapid-linkedin-scraper field names
+    title = raw.get("job_title") or raw.get("title", "")
+    company = raw.get("company_name") or raw.get("company", "")
+    location = raw.get("location", "")
+    description = raw.get("job_description") or raw.get("description", "")
+    url = raw.get("apply_url") or raw.get("job_url") or raw.get("url", "")
+
+    # Actor returns relative strings like "3 days ago"; not ISO dates → skip
+    posted_date = _parse_posted_date(raw.get("postedAt") or raw.get("publishedAt"))
+    num_applicants = _parse_applicant_count(raw.get("num_applicants") or raw.get("applicantsCount"))
+
+    # employment_type = "Full-time" / "Part-time" — not remote/hybrid, so check description
+    work_type = _parse_work_type(raw.get("work_schedule") or raw.get("workplaceType"))
+
+    # salary_range is a raw string like "$80K–$120K/yr" or null
+    salary_min, salary_max, period = _parse_salary_range_string(raw.get("salary_range"))
 
     exp_min, exp_max = _extract_experience_years(description)
 
@@ -149,7 +189,7 @@ def _normalise_linkedin(raw: dict[str, Any]) -> JobPost:
         salary_annual_max=annual_max,
         description=description,
         posted_date=posted_date,
-        num_applicants=int(num_applicants) if num_applicants else None,
+        num_applicants=num_applicants,
         url=url,
         source=JobSource.LINKEDIN,
         experience_years_min=exp_min,

@@ -1,2 +1,7 @@
 *.pdf
 /.env
+
+# generated output files
+jobs.json
+ranked.json
+*.html

@@ -7,9 +7,14 @@ import sys
 from pathlib import Path
 
 import click
+from rich.console import Console
+from rich.table import Table
+from rich import box
 
 from jobhunter.config import MatchConfig
-from jobhunter.models import JobPost, SearchParams, SalaryPeriod, WorkType
+from jobhunter.models import JobPost, MatchResult, SearchParams, SalaryPeriod, WorkType
+
+_console = Console()
 
 
 # ---------------------------------------------------------------------------
@@ -154,10 +159,12 @@ _match_options = [
     click.option("--model", default=None, help="Override the default model for the chosen provider."),
     click.option("--config", "config_path", default=None, help="Path to match config JSON file."),
     click.option("--min-score", type=float, default=None, help="Override minimum score to recommend applying."),
+    click.option("--max-workers", type=int, default=30, show_default=True, help="Max parallel LLM requests."),
 ]
 
 _output_option = [
     click.option("--output", "-o", default=None, help="Output file path (JSON). Prints to stdout if omitted."),
+    click.option("--html-output", default=None, help="Write a browsable HTML report to this path."),
 ]
 
 
@@ -215,26 +222,23 @@ def search_cmd(
 @click.option("--jobs", "jobs_path", required=True, help="Path to jobs JSON file (from `search`).")
 @_add_options(_match_options)
 @_add_options(_output_option)
-def match_cmd(jobs_path, cv, provider, llm_key, model, config_path, min_score, output):
+def match_cmd(jobs_path, cv, provider, llm_key, model, config_path, min_score, max_workers, output, html_output):
     """Match a CV against pre-fetched job postings and rank results."""
     from jobhunter.matching import CVMatcher
+    from jobhunter.report import write_html_report
 
     jobs = _load_jobs(jobs_path)
-    click.echo(f"Loaded {len(jobs)} jobs. Matching with {provider}…")
+    click.echo(f"Loaded {len(jobs)} jobs. Matching with {provider} ({max_workers} workers)…")
 
     cfg = _build_match_config(config_path, min_score)
     matcher = CVMatcher(llm_api_key=llm_key, llm_provider=provider, model=model)
-    ranked = matcher.rank(cv=cv, jobs=jobs, config=cfg)
+    ranked = matcher.rank(cv=cv, jobs=jobs, config=cfg, max_workers=max_workers)
 
-    click.echo(f"\nTop matches ({len(ranked)} total):\n")
-    for i, result in enumerate(ranked[:10], 1):
-        marker = "✓" if result.apply_recommended else "✗"
-        click.echo(
-            f"  {i:2}. [{marker}] {result.overall_score:5.1f}%  "
-            f"{result.job.title} @ {result.job.company}  ({result.job.location})"
-        )
-
+    _print_results_table(ranked)
     _save_json(ranked, output)
+    if html_output:
+        write_html_report(ranked, html_output)
+        click.echo(f"HTML report saved to {html_output}")
 
 
 # ---------------------------------------------------------------------------
@@ -251,12 +255,13 @@ def find_cmd(
     max_age, max_applicants, exp_min, exp_max, keywords, job_title,
     source, apify_key, max_results,
     # match options
-    cv, provider, llm_key, model, config_path, min_score,
+    cv, provider, llm_key, model, config_path, min_score, max_workers,
     # shared
-    output,
+    output, html_output,
 ):
     """Search for jobs and immediately rank them against your CV."""
     from jobhunter.matching import CVMatcher
+    from jobhunter.report import write_html_report
     from jobhunter.search import JobSearcher
 
     params = _build_search_params(
@@ -267,7 +272,7 @@ def find_cmd(
     click.echo(f"Searching {', '.join(source)} for jobs in {location}…")
     searcher = JobSearcher(apify_api_key=apify_key)
     jobs = searcher.search(params, sources=list(source), max_results_per_source=max_results)
-    click.echo(f"Found {len(jobs)} jobs. Matching with {provider}…")
+    click.echo(f"Found {len(jobs)} jobs. Matching with {provider} ({max_workers} workers)…")
 
     if not jobs:
         click.echo("No jobs found — try broadening your search parameters.")
@@ -275,26 +280,67 @@ def find_cmd(
 
     cfg = _build_match_config(config_path, min_score)
     matcher = CVMatcher(llm_api_key=llm_key, llm_provider=provider, model=model)
-    ranked = matcher.rank(cv=cv, jobs=jobs, config=cfg)
+    ranked = matcher.rank(cv=cv, jobs=jobs, config=cfg, max_workers=max_workers)
 
-    click.echo(f"\nTop matches ({len(ranked)} total):\n")
-    for i, result in enumerate(ranked[:10], 1):
-        marker = "✓" if result.apply_recommended else "✗"
-        click.echo(
-            f"  {i:2}. [{marker}] {result.overall_score:5.1f}%  "
-            f"{result.job.title} @ {result.job.company}  ({result.job.location})"
-        )
-        if result.top_matches:
-            click.echo(f"       + {result.top_matches[0]}")
-        if result.top_gaps:
-            click.echo(f"       - {result.top_gaps[0]}")
-
+    _print_results_table(ranked)
     _save_json(ranked, output)
+    if html_output:
+        write_html_report(ranked, html_output)
+        click.echo(f"HTML report saved to {html_output}")
 
 
 # ---------------------------------------------------------------------------
 # Internal helpers
 # ---------------------------------------------------------------------------
+
+def _print_results_table(ranked: list[MatchResult], limit: int = 20) -> None:
+    table = Table(
+        box=box.ROUNDED,
+        show_lines=True,
+        header_style="bold cyan",
+        expand=False,
+    )
+    table.add_column("Score", justify="right", style="bold", width=7)
+    table.add_column("Title", min_width=20, max_width=30)
+    table.add_column("Company", min_width=14, max_width=22)
+    table.add_column("Salary", min_width=12, max_width=20)
+    table.add_column("Type", width=10)
+    table.add_column("Location", min_width=12, max_width=20)
+    table.add_column("Description", min_width=30, max_width=50)
+    table.add_column("Apply", width=9)
+
+    for result in ranked[:limit]:
+        job = result.job
+        score_str = f"{result.overall_score:.0f}%"
+        score_style = (
+            "green" if result.apply_recommended else
+            "yellow" if result.overall_score >= 50 else
+            "red"
+        )
+        desc = (job.description or "").replace("\n", " ").strip()
+        desc = desc[:200] + "…" if len(desc) > 200 else desc
+
+        apply_cell = (
+            f"[link={job.url}]Apply →[/link]" if job.url else "—"
+        )
+
+        table.add_row(
+            f"[{score_style}]{score_str}[/{score_style}]",
+            job.title or "—",
+            job.company or "—",
+            job.salary_display,
+            job.work_type.value if job.work_type else "—",
+            job.location or "—",
+            desc or "—",
+            apply_cell,
+        )
+
+    _console.print(table)
+    _console.print(
+        f"[dim]Showing {min(limit, len(ranked))} of {len(ranked)} results. "
+        f"{sum(1 for r in ranked if r.apply_recommended)} recommended to apply.[/dim]"
+    )
+
 
 def _build_match_config(config_path: str | None, min_score: float | None) -> MatchConfig:
     if config_path:

@@ -4,8 +4,11 @@ from __future__ import annotations
 
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any
+
+from rich.progress import Progress, SpinnerColumn, BarColumn, MofNCompleteColumn, TextColumn, TimeElapsedColumn
 
 from jobhunter.config import MatchConfig
 from jobhunter.llm import LLMClient, create_llm_client
@@ -153,33 +156,52 @@ class CVMatcher:
         cv: str | Path,
         jobs: list[JobPost],
         config: MatchConfig | None = None,
+        max_workers: int = 30,
     ) -> list[MatchResult]:
         """
-        Score a CV against multiple job posts.
-
-        Results are returned in the same order as *jobs*. Individual failures are caught
-        and re-raised as warnings; failed matches are skipped.
+        Score a CV against multiple job posts in parallel.
 
         Args:
             cv: CV text string, or path to a .pdf / text file.
             jobs: List of job posts to evaluate.
             config: Matching configuration. Uses defaults if None.
+            max_workers: Max number of concurrent LLM requests. Defaults to 30.
 
         Returns:
             List of :class:`MatchResult` objects (one per job that succeeded).
         """
         cfg = config or MatchConfig()
         cv_text = load_cv(cv)
-        results: list[MatchResult] = []
 
-        for job in jobs:
-            try:
-                user_prompt = build_user_prompt(cv_text, job)
-                raw_response = self._llm.complete(system=SYSTEM_PROMPT, user=user_prompt)
-                parsed = _extract_json(raw_response)
-                results.append(_build_match_result(parsed, job, cfg))
-            except Exception as exc:
-                print(f"[jobhunter] Warning: matching failed for '{job.title}' @ '{job.company}' — {exc}")
+        def _score_one(job: JobPost) -> MatchResult:
+            user_prompt = build_user_prompt(cv_text, job)
+            raw_response = self._llm.complete(system=SYSTEM_PROMPT, user=user_prompt)
+            parsed = _extract_json(raw_response)
+            return _build_match_result(parsed, job, cfg)
+
+        results: list[MatchResult] = []
+        workers = min(max_workers, len(jobs))
+
+        with Progress(
+            SpinnerColumn(),
+            TextColumn("[progress.description]{task.description}"),
+            BarColumn(),
+            MofNCompleteColumn(),
+            TimeElapsedColumn(),
+            transient=True,
+        ) as progress:
+            task = progress.add_task(f"Matching {len(jobs)} jobs…", total=len(jobs))
+
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                futures = {pool.submit(_score_one, job): job for job in jobs}
+                for future in as_completed(futures):
+                    job = futures[future]
+                    try:
+                        results.append(future.result())
+                    except Exception as exc:
+                        print(f"[jobhunter] Warning: matching failed for '{job.title}' @ '{job.company}' — {exc}")
+                    finally:
+                        progress.advance(task)
 
         return results
 
@@ -188,6 +210,7 @@ class CVMatcher:
         cv: str | Path,
         jobs: list[JobPost],
         config: MatchConfig | None = None,
+        max_workers: int = 30,
     ) -> list[MatchResult]:
         """
         Score and rank jobs by match quality, best first.
@@ -196,9 +219,10 @@ class CVMatcher:
             cv: CV text string, or path to a .pdf / text file.
             jobs: List of job posts to evaluate.
             config: Matching configuration. Uses defaults if None.
+            max_workers: Max number of concurrent LLM requests. Defaults to 30.
 
         Returns:
             List of :class:`MatchResult` sorted by ``overall_score`` descending.
         """
-        results = self.match_many(cv, jobs, config)
+        results = self.match_many(cv, jobs, config, max_workers=max_workers)
         return sorted(results, key=lambda r: r.overall_score, reverse=True)
