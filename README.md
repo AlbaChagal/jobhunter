@@ -162,4 +162,4 @@ Copy `.env.example` to `.env` and fill in your keys:
 
 ## License
 
-MIT
+Apache
