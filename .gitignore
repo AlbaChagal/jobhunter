@@ -1,6 +1,6 @@
 *.pdf
 /.env
-
+*/__pycache__/*
 # generated output files
 jobs.json
 ranked.json
