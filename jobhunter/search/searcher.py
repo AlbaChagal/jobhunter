@@ -347,6 +347,21 @@ class JobSearcher:
 
         return post_fetch_filter(all_jobs, params)
 
+    def search_source(
+        self,
+        source: JobSource | str,
+        params: SearchParams,
+        max_results_per_source: int = 50,
+    ) -> list[JobPost]:
+        """Public wrapper around _search_source for pipeline use.
+
+        Resolves a string source name to a JobSource enum, runs the source,
+        applies post-fetch filters, and returns the filtered jobs.
+        """
+        resolved = JobSource(source) if isinstance(source, str) else source
+        jobs = self._search_source(resolved, params, max_results_per_source)
+        return post_fetch_filter(jobs, params)
+
     def _search_source(
         self,
         source: JobSource,

@@ -187,6 +187,20 @@ def cli() -> None:
 
 
 # ---------------------------------------------------------------------------
+# serve command
+# ---------------------------------------------------------------------------
+
+@cli.command("serve")
+@click.option("--report", required=True, help="Path to the HTML report file.")
+@click.option("--db", "db_path", default=None, help="Path to db.json (default: same dir as report).")
+@click.option("--port", default=8765, show_default=True, help="Port to listen on.")
+def serve_cmd(report: str, db_path: str | None, port: int) -> None:
+    """Serve the HTML report locally and track applied jobs in db.json."""
+    from jobhunter.server import JobHunterServer
+    JobHunterServer(report_path=report, db_path=db_path, port=port).start()
+
+
+# ---------------------------------------------------------------------------
 # search command
 # ---------------------------------------------------------------------------
 

@@ -13,7 +13,12 @@ from rich.progress import Progress, SpinnerColumn, BarColumn, MofNCompleteColumn
 from jobhunter.config import MatchConfig
 from jobhunter.llm import LLMClient, create_llm_client
 from jobhunter.matching.cv_parser import load_cv
-from jobhunter.matching.prompts import SYSTEM_PROMPT, build_user_prompt
+from jobhunter.matching.prompts import (
+    BATCH_SYSTEM_PROMPT,
+    SYSTEM_PROMPT,
+    build_batch_user_prompt,
+    build_user_prompt,
+)
 from jobhunter.models import JobPost, MatchCategory, MatchResult
 
 # ---------------------------------------------------------------------------
@@ -21,6 +26,7 @@ from jobhunter.models import JobPost, MatchCategory, MatchResult
 # ---------------------------------------------------------------------------
 
 _JSON_RE = re.compile(r"\{[\s\S]*\}", re.DOTALL)
+_JSON_ARRAY_RE = re.compile(r"\[[\s\S]*\]", re.DOTALL)
 
 
 def _extract_json(text: str) -> dict[str, Any]:
@@ -31,6 +37,27 @@ def _extract_json(text: str) -> dict[str, Any]:
     if not match:
         raise ValueError("LLM response did not contain a JSON object.")
     return json.loads(match.group())
+
+
+def _extract_json_array(text: str) -> list[dict[str, Any]]:
+    """Extract the first JSON array from a string (handles markdown fences).
+
+    Falls back to looking for an object with a list value if no top-level array
+    is found (some models wrap the array in ``{"results": [...]}``)."""
+    text = re.sub(r"```(?:json)?\s*", "", text).strip()
+    arr_match = _JSON_ARRAY_RE.search(text)
+    if arr_match:
+        parsed = json.loads(arr_match.group())
+        if isinstance(parsed, list):
+            return parsed
+    # Fallback: maybe wrapped in an object
+    obj_match = _JSON_RE.search(text)
+    if obj_match:
+        obj = json.loads(obj_match.group())
+        for v in obj.values():
+            if isinstance(v, list):
+                return v
+    raise ValueError("LLM response did not contain a JSON array.")
 
 
 # ---------------------------------------------------------------------------
@@ -225,4 +252,122 @@ class CVMatcher:
             List of :class:`MatchResult` sorted by ``overall_score`` descending.
         """
         results = self.match_many(cv, jobs, config, max_workers=max_workers)
+        return sorted(results, key=lambda r: r.overall_score, reverse=True)
+
+    # -----------------------------------------------------------------------
+    # Batched matching — send N jobs per LLM call, run batches in parallel
+    # -----------------------------------------------------------------------
+
+    def _score_batch(
+        self,
+        cv_text: str,
+        jobs: list[JobPost],
+        config: MatchConfig,
+    ) -> list[MatchResult]:
+        """Score a pre-loaded CV against a batch of jobs in a single LLM call."""
+        user_prompt = build_batch_user_prompt(cv_text, jobs)
+        raw_response = self._llm.complete(system=BATCH_SYSTEM_PROMPT, user=user_prompt)
+
+        try:
+            parsed_array = _extract_json_array(raw_response)
+        except (ValueError, json.JSONDecodeError) as exc:
+            raise RuntimeError(
+                f"LLM returned an unparseable batch response: {exc}\n\nRaw (first 500 chars):\n{raw_response[:500]}"
+            ) from exc
+
+        results: list[MatchResult] = []
+        for i, job in enumerate(jobs):
+            if i >= len(parsed_array):
+                print(f"[jobhunter] Warning: batch response missing result for job {i} '{job.title}'")
+                continue
+            try:
+                results.append(_build_match_result(parsed_array[i], job, config))
+            except Exception as exc:
+                print(f"[jobhunter] Warning: batch result parse failed for '{job.title}' @ '{job.company}' — {exc}")
+
+        return results
+
+    def match_many_batched(
+        self,
+        cv: str | Path,
+        jobs: list[JobPost],
+        config: MatchConfig | None = None,
+        batch_size: int = 5,
+        max_workers: int = 6,
+    ) -> list[MatchResult]:
+        """Score a CV against multiple jobs using batched LLM calls run in parallel.
+
+        Each LLM call evaluates *batch_size* jobs at once, dramatically reducing
+        API call count and total token cost (CV text is sent once per batch, not
+        once per job).  Multiple batches run concurrently via a thread pool.
+
+        Args:
+            cv: CV text string, or path to a .pdf / text file.
+            jobs: List of job posts to evaluate.
+            config: Matching configuration. Uses defaults if None.
+            batch_size: Number of jobs per LLM call. Defaults to 5.
+            max_workers: Max concurrent batch calls. Defaults to 6.
+
+        Returns:
+            List of :class:`MatchResult` objects (one per job that succeeded).
+        """
+        if not jobs:
+            return []
+
+        cfg = config or MatchConfig()
+        cv_text = load_cv(cv)
+
+        batches = [jobs[i: i + batch_size] for i in range(0, len(jobs), batch_size)]
+        all_results: list[MatchResult] = []
+        workers = min(max_workers, len(batches))
+
+        with Progress(
+            SpinnerColumn(),
+            TextColumn("[progress.description]{task.description}"),
+            BarColumn(),
+            MofNCompleteColumn(),
+            TimeElapsedColumn(),
+            transient=True,
+        ) as progress:
+            task = progress.add_task(
+                f"Matching {len(jobs)} jobs in {len(batches)} batches…",
+                total=len(batches),
+            )
+
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                futures = {
+                    pool.submit(self._score_batch, cv_text, batch, cfg): batch
+                    for batch in batches
+                }
+                for future in as_completed(futures):
+                    try:
+                        all_results.extend(future.result())
+                    except Exception as exc:
+                        print(f"[jobhunter] Warning: a batch failed entirely — {exc}")
+                    finally:
+                        progress.advance(task)
+
+        return all_results
+
+    def rank_batched(
+        self,
+        cv: str | Path,
+        jobs: list[JobPost],
+        config: MatchConfig | None = None,
+        batch_size: int = 5,
+        max_workers: int = 6,
+    ) -> list[MatchResult]:
+        """Score and rank jobs using batched LLM calls, best match first.
+
+        Args:
+            cv: CV text string, or path to a .pdf / text file.
+            jobs: List of job posts to evaluate.
+            config: Matching configuration. Uses defaults if None.
+            batch_size: Number of jobs per LLM call. Defaults to 5.
+            max_workers: Max concurrent batch calls. Defaults to 6.
+
+        Returns:
+            List of :class:`MatchResult` sorted by ``overall_score`` descending.
+        """
+        results = self.match_many_batched(cv, jobs, config, batch_size=batch_size, max_workers=max_workers)
         return sorted(results, key=lambda r: r.overall_score, reverse=True)
