@@ -1,6 +1,7 @@
 *.pdf
 /.env
 */__pycache__/*
+.idea
 # generated output files
 jobs.json
 ranked.json
